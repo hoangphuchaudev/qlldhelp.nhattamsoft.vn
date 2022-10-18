@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-tutorial-3">
+      <rect width="80" height="80"/>
+    </clipPath>
+  </defs>
+  <g id="tutorial-3" clip-path="url(#clip-tutorial-3)">
+    <g id="Group_51945" data-name="Group 51945" transform="translate(-688 -1068)">
+      <g id="Ellipse_3121" data-name="Ellipse 3121" transform="translate(688 1068)" fill="none" stroke="#e7ece7" stroke-width="1">
+        <circle cx="40" cy="40" r="40" stroke="none"/>
+        <circle cx="40" cy="40" r="39.5" fill="none"/>
+      </g>
+      <g id="Group_52046" data-name="Group 52046" transform="translate(80.424 245.775)">
+        <g id="Group_48127" data-name="Group 48127" transform="translate(627.576 842.226)">
+          <circle id="Ellipse_2419" data-name="Ellipse 2419" cx="9.375" cy="9.375" r="9.375" transform="translate(0 0)" fill="#b9e6c8"/>
+          <circle id="Ellipse_2419-2" data-name="Ellipse 2419" cx="9.375" cy="9.375" r="9.375" transform="translate(0 21.25)" fill="#b9e6c8"/>
+          <circle id="Ellipse_2419-3" data-name="Ellipse 2419" cx="9.375" cy="9.375" r="9.375" transform="translate(21.25)" fill="#b9e6c8"/>
+        </g>
+        <rect id="Rectangle_22081" data-name="Rectangle 22081" width="9.722" height="2.778" rx="1.389" transform="translate(632.091 850.21)" fill="#5bb476"/>
+        <rect id="Rectangle_22082" data-name="Rectangle 22082" width="11.111" height="2.778" rx="1.389" transform="translate(652.576 869.663)" fill="#fca800"/>
+        <rect id="Rectangle_22083" data-name="Rectangle 22083" width="11.111" height="2.778" rx="1.389" transform="translate(652.576 875.219)" fill="#fca800"/>
+        <g id="Group_52046-2" data-name="Group 52046" transform="translate(652.576 846.044)">
+          <rect id="Rectangle_22079" data-name="Rectangle 22079" width="11.111" height="2.778" rx="1.389" transform="translate(0 4.167)" fill="#5bb476"/>
+          <rect id="Rectangle_22080" data-name="Rectangle 22080" width="11.111" height="2.778" rx="1.389" transform="translate(6.944) rotate(90)" fill="#5bb476"/>
+        </g>
+        <g id="Group_52047" data-name="Group 52047" transform="matrix(0.695, 0.719, -0.719, 0.695, 637.089, 864.973)">
+          <rect id="Rectangle_22079-2" data-name="Rectangle 22079" width="11.111" height="2.778" rx="1" transform="translate(0 4.167)" fill="#5bb476"/>
+          <rect id="Rectangle_22080-2" data-name="Rectangle 22080" width="11.111" height="2.778" rx="1.389" transform="translate(6.944 0) rotate(90)" fill="#5bb476"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

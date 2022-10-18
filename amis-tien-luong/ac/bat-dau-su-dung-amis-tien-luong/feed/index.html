@@ -1,0 +1,824 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>  </title>
+	<atom:link href="/amis-tien-luong/ac/bat-dau-su-dung-amis-tien-luong/feed/" rel="self" type="application/rss+xml" />
+	<link>http://helpamis.misa.vn/amis-tien-luong</link>
+	<description>Phần mềm quản lý tiền lương</description>
+	<lastBuildDate>Tue, 28 Jun 2022 04:06:46 +0000</lastBuildDate>
+	<language>vi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7</generator>
+
+<image>
+	<url>/amis-tien-luong/wp-content/uploads/2021/07/favicon-1-1.png</url>
+	<title>  </title>
+	<link>http://helpamis.misa.vn/amis-tien-luong</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Tổng quan luồng kết nối nghiệp vụ giữa các ứng dụng trong bộ MISA AMIS HRM</title>
+		<link>/amis-tien-luong/kb/tong-quan-luong-ket-noi-nghiep-vu-giua-cac-ung-dung-trong-bo-misa-amis-hrm/</link>
+					<comments>/amis-tien-luong/kb/tong-quan-luong-ket-noi-nghiep-vu-giua-cac-ung-dung-trong-bo-misa-amis-hrm/#respond</comments>
+		
+		<dc:creator><![CDATA[Nguyễn Thị Hương Lý]]></dc:creator>
+		<pubDate>Fri, 25 Mar 2022 08:39:26 +0000</pubDate>
+				<guid isPermaLink="false">/amis-tien-luong/?post_type=ht_kb&#038;p=15387</guid>
+
+					<description><![CDATA[I. Kết nối về nghiệp vụ quản lý thông tin nhân sự NGHIỆP VỤ PHẦN MỀM ĐÁP ỨNG Tính kết nối Tình huống sử dụng Ứng dụng đẩy dữ liệu Ứng dụng nhận dữ liệu Luồng tương tác Chuyển ứng viên thành nhân viên Khi có ứng viên trúng tuyển,...]]></description>
+										<content:encoded><![CDATA[<h3><strong>I. Kết nối về nghiệp vụ quản lý thông tin nhân sự</strong></h3>
+<table style="width: 850px;">
+<tbody>
+<tr>
+<td style="width: 246.234px; text-align: center;" colspan="2">NGHIỆP VỤ</td>
+<td style="width: 364.766px; text-align: center;" colspan="3">PHẦN MỀM ĐÁP ỨNG</td>
+</tr>
+<tr>
+<td style="width: 92.0938px; text-align: center;">Tính kết nối</td>
+<td style="width: 137.141px; text-align: center;">Tình huống sử dụng</td>
+<td style="width: 45.3438px; text-align: center;">Ứng dụng <strong>đẩy</strong> dữ liệu</td>
+<td style="width: 46.125px; text-align: center;">Ứng dụng <strong>nhận</strong> dữ liệu</td>
+<td style="width: 239.297px; text-align: center;">Luồng tương tác</td>
+</tr>
+<tr>
+<td style="width: 92.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Chuyển ứng viên thành nhân viên&quot;}">Chuyển ứng viên thành nhân viên</td>
+<td style="width: 137.141px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Khi có ứng viên trúng tuyển, HR cần làm thủ tục khai báo, lưu trữ hồ sơ nhân viên mới&quot;}">Khi có ứng viên trúng tuyển, HR cần làm thủ tục khai báo, lưu trữ hồ sơ nhân viên mới</td>
+<td style="width: 45.3438px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Tuyển dụng&quot;}">Tuyển dụng</td>
+<td style="width: 46.125px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Thông tin nhân sự&quot;}">Thông tin nhân sự</td>
+<td style="width: 239.297px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;- Trên Tuyển dụng: \n+ Thiết lập kết nối với ứng dụng AMIS Thông tin nhân sự\n+ Thao tác chuyển ứng viên trúng tuyển thành nhân viên\n- Trên Thông tin nhân sự:\n+ Nhận được thông báo có ứng viên chuyển thành nhân viên\n+ Xem danh sách các ứng viên trúng tuyển và thực hiện chức năng tạo hồ sơ&quot;,&quot;6&quot;:1}" data-sheets-textstyleruns="{&quot;1&quot;:0,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:17}{&quot;1&quot;:131,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:155}">&#8211; Trên Tuyển dụng:<br />
++ Thiết lập kết nối với ứng dụng AMIS Thông tin nhân sự<br />
++ Thao tác chuyển ứng viên trúng tuyển thành nhân viên<br />
+&#8211; Trên Thông tin nhân sự:<br />
++ Nhận được thông báo có ứng viên chuyển thành nhân viên<br />
++ Xem danh sách các ứng viên trúng tuyển và thực hiện chức năng tạo hồ sơ</td>
+</tr>
+<tr>
+<td style="width: 92.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Nhận biết nhân viên nghỉ việc trong diện blacklist khi ứng tuyển lại&quot;}">Nhận biết nhân viên nghỉ việc trong diện blacklist khi ứng tuyển lại</td>
+<td style="width: 137.141px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Khi nhân viên nghỉ việc thuộc các trường hợp do vi phạm kỷ luật, phạm lỗi nghiêm trọng nên bị sa thải,... HR sẽ đưa nhân viên này vào diện blacklist để nếu như sau đó nhân viên có ứng tuyển trở lại vào công ty thì kiểm tra ra được và không tuyển dụng lại&quot;}">Khi nhân viên nghỉ việc thuộc các trường hợp do vi phạm kỷ luật, phạm lỗi nghiêm trọng nên bị sa thải,&#8230; HR sẽ đưa nhân viên này vào diện blacklist để nếu như sau đó nhân viên có ứng tuyển trở lại vào công ty thì kiểm tra ra được và không tuyển dụng lại</td>
+<td style="width: 45.3438px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Thông tin nhân sự&quot;}">Thông tin nhân sự</td>
+<td style="width: 46.125px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Tuyển dụng&quot;}">Tuyển dụng</td>
+<td style="width: 239.297px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;- Trên Thông tin nhân sự: Đánh dấu nhân viên nghỉ việc trong diện blacklist\n- Trên Tuyển dụng: Tự động nhận biết và cảnh báo cho HR khi có ứng viên thuộc blacklist (dựa vào Email, Số điện thoại)&quot;,&quot;6&quot;:1}" data-sheets-textstyleruns="{&quot;1&quot;:0,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:25}{&quot;1&quot;:76,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:93}">&#8211; Trên Thông tin nhân sự: Đánh dấu nhân viên nghỉ việc trong diện blacklist<br />
+&#8211; Trên Tuyển dụng: Tự động nhận biết và cảnh báo cho HR khi có ứng viên thuộc blacklist (dựa vào Email, Số điện thoại)</td>
+</tr>
+<tr>
+<td style="width: 92.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Chuyển danh mục nhân viên sang các ứng dụng khác&quot;}">Chuyển danh mục nhân viên sang các ứng dụng khác</td>
+<td style="width: 137.141px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Để sử dụng được các tính năng, nghiệp vụ trên phần mềm, HR cần đồng bộ danh sách nhân viên đang quản lý trên AMIS Thông tin nhân sự về các ứng dụng khác&quot;}">Để sử dụng được các tính năng, nghiệp vụ trên phần mềm, HR cần đồng bộ danh sách nhân viên đang quản lý trên AMIS Thông tin nhân sự về các ứng dụng khác</td>
+<td style="width: 45.3438px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Thông tin nhân sự&quot;}">Thông tin nhân sự</td>
+<td style="width: 46.125px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Chấm công\nTiền lương\nBHXH\nThuế TNCN&quot;}">Chấm công,<br />
+Tiền lương,<br />
+BHXH,<br />
+Thuế, TNCN</td>
+<td style="width: 239.297px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;- Trên Thông tin nhân sự: Khai báo hồ sơ nhân viên\n- Trên các ứng dụng khác: Tự động đồng bộ danh sách nhân viên từ Thông tin nhân sự về ứng dụng\nLưu ý: Nếu công ty không sử dụng Thông tin nhân sự thì danh sách nhân viên sẽ được lấy từ Hệ thống&quot;,&quot;6&quot;:1}" data-sheets-textstyleruns="{&quot;1&quot;:0,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:24}{&quot;1&quot;:51,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:75}{&quot;1&quot;:146,&quot;2&quot;:{&quot;6&quot;:1}}">&#8211; Trên Thông tin nhân sự: Khai báo hồ sơ nhân viên<br />
+&#8211; Trên các ứng dụng khác: Tự động đồng bộ danh sách nhân viên từ Thông tin nhân sự về ứng dụng<br />
+Lưu ý: Nếu công ty không sử dụng Thông tin nhân sự thì danh sách nhân viên sẽ được lấy từ Hệ thống</td>
+</tr>
+<tr>
+<td style="width: 92.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Thông báo sinh nhật, nhân viên mới, nghỉ việc, kết hôn,...&quot;}">Thông báo sinh nhật, nhân viên mới, nghỉ việc, kết hôn,&#8230;</td>
+<td style="width: 137.141px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Khi cần thông báo các thông tin liên quan đến nhân viên, HR sẽ đăng tải thông tin lên bảng tin nội bộ của doanh nghiệp để phổ biến đến toàn thể cán bộ nhân viên trong công ty. Các tình huống thông báo bao gồm:\n- Nhân viên mới\n- Nhân viên nghỉ việc\n- Nhân viên được bổ nhiệm\n- Nhân viên được thuyên chuyển\n- Nhân viên/Phòng ban được khen thưởng\n- Nhân viên kết hôn\n- Nhân viên sinh con\n- Người thân nhân viên qua đời&quot;}">Khi cần thông báo các thông tin liên quan đến nhân viên, HR sẽ đăng tải thông tin lên bảng tin nội bộ của doanh nghiệp để phổ biến đến toàn thể cán bộ nhân viên trong công ty. Các tình huống thông báo bao gồm:<br />
+&#8211; Nhân viên mới<br />
+&#8211; Nhân viên nghỉ việc<br />
+&#8211; Nhân viên được bổ nhiệm<br />
+&#8211; Nhân viên được thuyên chuyển<br />
+&#8211; Nhân viên/Phòng ban được khen thưởng<br />
+&#8211; Nhân viên kết hôn<br />
+&#8211; Nhân viên sinh con<br />
+&#8211; Người thân nhân viên qua đời</td>
+<td style="width: 45.3438px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Thông tin nhân sự&quot;}">Thông tin nhân sự</td>
+<td style="width: 46.125px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Mạng xã hội&quot;}">Mạng xã hội</td>
+<td style="width: 239.297px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;- Trên Thông tin nhân sự: Thao tác xuất thông báo lên MXH nội bộ (HR tự thao tác hoặc thiết lập xuất tự động)\n- Trên Mạng xã hội: Hiển thị các thông báo được xuất từ Thông tin nhân sự&quot;,&quot;6&quot;:1}" data-sheets-textstyleruns="{&quot;1&quot;:0,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:24}{&quot;1&quot;:110,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:128}">&#8211; Trên Thông tin nhân sự: Thao tác xuất thông báo lên MXH nội bộ (HR tự thao tác hoặc thiết lập xuất tự động)<br />
+&#8211; Trên Mạng xã hội: Hiển thị các thông báo được xuất từ Thông tin nhân sự</td>
+</tr>
+<tr>
+<td style="width: 92.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Ghi nhận quá trình tham gia bảo hiểm vào hồ sơ&quot;}">Ghi nhận quá trình tham gia bảo hiểm vào hồ sơ</td>
+<td style="width: 137.141px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Mỗi khi nhân viên phát sinh quá trình tham gia bảo hiểm mới (VD: Tăng lao động, ốm đau, thai sản,...), HR sẽ ghi nhận trên AMIS BHXH và đồng thời lưu lại thông tin vào hồ sơ nhân viên để tiện tra cứu&quot;}">Mỗi khi nhân viên phát sinh quá trình tham gia bảo hiểm mới (VD: Tăng lao động, ốm đau, thai sản,&#8230;), HR sẽ ghi nhận trên AMIS BHXH và đồng thời lưu lại thông tin vào hồ sơ nhân viên để tiện tra cứu</td>
+<td style="width: 45.3438px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Bảo hiểm xã hội&quot;}">Bảo hiểm xã hội</td>
+<td style="width: 46.125px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Thông tin nhân sự&quot;}">Thông tin nhân sự</td>
+<td style="width: 239.297px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;- Trên BHXH: Khai báo quá trình tham gia bảo hiểm của nhân viên\n- Trên Thông tin nhân sự: Tự động đồng bộ quá trình đóng bảo hiểm của nhân viên về hồ sơ&quot;,&quot;6&quot;:1}" data-sheets-textstyleruns="{&quot;1&quot;:0,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:11}{&quot;1&quot;:64,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:88}">&#8211; Trên BHXH: Khai báo quá trình tham gia bảo hiểm của nhân viên<br />
+&#8211; Trên Thông tin nhân sự: Tự động đồng bộ quá trình đóng bảo hiểm của nhân viên về hồ sơ</td>
+</tr>
+<tr>
+<td style="width: 92.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Ghi nhận lịch sử chi trả lương vào hồ sơ&quot;}">Ghi nhận lịch sử chi trả lương vào hồ sơ</td>
+<td style="width: 137.141px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Đến mỗi kỳ chi trả lương, HR sẽ tính toán số tiền cần phải trả, thực trả và còn nợ của mỗi nhân viên trên AMIS Tiền lương và đồng thời lưu lại thông tin vào hồ sơ nhân viên để tiện tra cứu&quot;}">Đến mỗi kỳ chi trả lương, HR sẽ tính toán số tiền cần phải trả, thực trả và còn nợ của mỗi nhân viên trên AMIS Tiền lương và đồng thời lưu lại thông tin vào hồ sơ nhân viên để tiện tra cứu</td>
+<td style="width: 45.3438px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Tiền lương&quot;}">Tiền lương</td>
+<td style="width: 46.125px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Thông tin nhân sự&quot;}">Thông tin nhân sự</td>
+<td style="width: 239.297px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;- Trên Tiền lương: Lập bảng chi trả lương hàng kỳ\n- Trên Thông tin nhân sự: Tự động đồng bộ lịch sử chi trả lương của nhân viên về hồ sơ&quot;,&quot;6&quot;:1}" data-sheets-textstyleruns="{&quot;1&quot;:0,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:17}{&quot;1&quot;:50,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:74}">&#8211; Trên Tiền lương: Lập bảng chi trả lương hàng kỳ<br />
+&#8211; Trên Thông tin nhân sự: Tự động đồng bộ lịch sử chi trả lương của nhân viên về hồ sơ</td>
+</tr>
+</tbody>
+</table>
+<h3><strong>II. Kết nối về nghiệp vụ tính lương</strong></h3>
+<table style="width: 956px;">
+<tbody>
+<tr>
+<td style="width: 253.406px; text-align: center;" colspan="2" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Nghiệp vụ&quot;}">Nghiệp vụ</td>
+<td style="width: 357.594px; text-align: center;" colspan="3" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Phần mềm đáp ứng&quot;}">Phần mềm đáp ứng</td>
+</tr>
+<tr>
+<td style="width: 75.1406px; text-align: center;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Tính kết nối&quot;}">Tính kết nối</td>
+<td style="width: 161.266px; text-align: center;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Tính huống sử dụng&quot;}">Tính huống sử dụng</td>
+<td style="width: 46.0938px; text-align: center;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Ứng dụng đẩy dữ liệu&quot;}">Ứng dụng <strong>đẩy</strong> dữ liệu</td>
+<td style="width: 51.0938px; text-align: center;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Ứng dụng nhận dữ liệu&quot;}">Ứng dụng <strong>nhận</strong> dữ liệu</td>
+<td style="width: 226.406px; text-align: center;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Luồng tương tác&quot;}">Luồng tương tác</td>
+</tr>
+<tr>
+<td style="width: 75.1406px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Chuyển bảng chấm công tổng hợp sang tính lương&quot;}">Chuyển bảng chấm công tổng hợp sang tính lương</td>
+<td style="width: 161.266px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Hàng tháng, sau khi chốt công, HR sẽ chuyển bảng chấm công tổng hợp cho HR tính lương để có căn cứ tính các khoản lương, thưởng theo thời gian làm việc&quot;}">Hàng tháng, sau khi chốt công, HR sẽ chuyển bảng chấm công tổng hợp cho HR tính lương để có căn cứ tính các khoản lương, thưởng theo thời gian làm việc</td>
+<td style="width: 46.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Chấm công&quot;}">Chấm công</td>
+<td style="width: 51.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Tiền lương&quot;}">Tiền lương</td>
+<td style="width: 226.406px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;- Trên Chấm công: HR thao tác chuyển tính lương tại bảng chấm công tổng hợp\n- Trên Tiền lương:\n+ Nhận được thông báo có bảng chấm công chuyển sang\n+ Sử dụng bảng chấm công tổng hợp này làm dữ liệu tính lương&quot;,&quot;6&quot;:1}" data-sheets-textstyleruns="{&quot;1&quot;:0,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:16}{&quot;1&quot;:76,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:93}">&#8211; Trên Chấm công: HR thao tác chuyển tính lương tại bảng chấm công tổng hợp<br />
+&#8211; Trên Tiền lương:<br />
++ Nhận được thông báo có bảng chấm công chuyển sang<br />
++ Sử dụng bảng chấm công tổng hợp này làm dữ liệu tính lương</td>
+</tr>
+<tr>
+<td style="width: 75.1406px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Chuyển dữ liệu khen thưởng, phạt vi phạm sự cố sang tính lương&quot;}">Chuyển dữ liệu khen thưởng, phạt vi phạm sự cố sang tính lương</td>
+<td style="width: 161.266px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Trong quá trình làm việc, nhân viên có thể được khen thưởng bằng tiền hoặc vi phạm kỷ luật/sự cố bị phạt trừ vào lương. Khi đó, HR quản lý thủ tục nhân sự sẽ tổng hợp danh sách nhân viên được khen thưởng, phạt sự cố cùng số tiền tương ứng rồi chuyển cho HR tính lương để làm căn cứ tính các khoản thu nhập khác, khấu trừ khác trong tháng cho nhân viên.&quot;}">Trong quá trình làm việc, nhân viên có thể được khen thưởng bằng tiền hoặc vi phạm kỷ luật/sự cố bị phạt trừ vào lương. Khi đó, HR quản lý thủ tục nhân sự sẽ tổng hợp danh sách nhân viên được khen thưởng, phạt sự cố cùng số tiền tương ứng rồi chuyển cho HR tính lương để làm căn cứ tính các khoản thu nhập khác, khấu trừ khác trong tháng cho nhân viên.</td>
+<td style="width: 46.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Thông tin nhân sự&quot;}">Thông tin nhân sự</td>
+<td style="width: 51.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Tiền lương&quot;}">Tiền lương</td>
+<td style="width: 226.406px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;- Trên Thông tin nhân sự: HR thao tác chuyển tính lương tại các đợt khen thưởng, sự cố\n- Trên Tiền lương:\n+ Nhận được thông báo có dữ liệu khen thưởng, phạt sự cố chuyển sang\n+ Tạo bảng thu nhập khác để ghi nhận số tiền khen thưởng, bảng khấu trừ khác để ghi nhận số tiền phạt sự cố của nhân viên\n+ Sử dụng các bảng thu nhập khác, khấu trừ khác này làm dữ liệu tính lương&quot;,&quot;6&quot;:1}" data-sheets-textstyleruns="{&quot;1&quot;:0,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:24}{&quot;1&quot;:87,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:104}">&#8211; Trên Thông tin nhân sự: HR thao tác chuyển tính lương tại các đợt khen thưởng, sự cố<br />
+&#8211; Trên Tiền lương:<br />
++ Nhận được thông báo có dữ liệu khen thưởng, phạt sự cố chuyển sang<br />
++ Tạo bảng thu nhập khác để ghi nhận số tiền khen thưởng, bảng khấu trừ khác để ghi nhận số tiền phạt sự cố của nhân viên<br />
++ Sử dụng các bảng thu nhập khác, khấu trừ khác này làm dữ liệu tính lương</td>
+</tr>
+<tr>
+<td style="width: 75.1406px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Chuyển bảng phân bổ lương sang kế toán&quot;}">Chuyển bảng phân bổ lương sang kế toán</td>
+<td style="width: 161.266px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Sau khi tính lương chi tiết cho từng nhân viên, HR sẽ lập bảng phân bổ lương để tổng hợp số tiền lương theo từng đơn vị/phòng ban rồi chuyển cho bộ phận kế toán. Đây là căn cứ để kế toán hạch toán các chi phí tiền lương cho doanh nghiệp.&quot;}">Sau khi tính lương chi tiết cho từng nhân viên, HR sẽ lập bảng phân bổ lương để tổng hợp số tiền lương theo từng đơn vị/phòng ban rồi chuyển cho bộ phận kế toán. Đây là căn cứ để kế toán hạch toán các chi phí tiền lương cho doanh nghiệp.</td>
+<td style="width: 46.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Tiền lương&quot;}">Tiền lương</td>
+<td style="width: 51.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Kế toán&quot;}">Kế toán</td>
+<td style="width: 226.406px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;- Trên Tiền lương: HR thao tác chuyển kế toán tại bảng phân bổ lương\n- Trên Kế toán:\n+ Nhận được thông báo có bảng phân bổ lương chuyển sang\n+ Sử dụng bảng phân bổ lương này để hạch toán các tài khoản chi phí lương&quot;,&quot;6&quot;:1}" data-sheets-textstyleruns="{&quot;1&quot;:0,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:17}{&quot;1&quot;:69,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:83}">&#8211; Trên Tiền lương: HR thao tác chuyển kế toán tại bảng phân bổ lương<br />
+&#8211; Trên Kế toán:<br />
++ Nhận được thông báo có bảng phân bổ lương chuyển sang<br />
++ Sử dụng bảng phân bổ lương này để hạch toán các tài khoản chi phí lương</td>
+</tr>
+<tr>
+<td style="width: 75.1406px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Chuyển bảng tổng hợp chi trả sang kế toán&quot;}">Chuyển bảng tổng hợp chi trả sang kế toán</td>
+<td style="width: 161.266px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Sau khi tính toán số tiền lương thực trả cho nhân viên trong kỳ, HR sẽ lập bảng tổng hợp chi trả để tính tổng số tiền lương chi trả theo từng đơn vị/phòng ban rồi chuyển cho bộ phận kế toán. Đây là căn cứ để kế toán thực hiện chi tiền.&quot;}">Sau khi tính toán số tiền lương thực trả cho nhân viên trong kỳ, HR sẽ lập bảng tổng hợp chi trả để tính tổng số tiền lương chi trả theo từng đơn vị/phòng ban rồi chuyển cho bộ phận kế toán. Đây là căn cứ để kế toán thực hiện chi tiền.</td>
+<td style="width: 46.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Tiền lương&quot;}">Tiền lương</td>
+<td style="width: 51.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Kế toán&quot;}">Kế toán</td>
+<td style="width: 226.406px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;- Trên Tiền lương: HR thao tác chuyển kế toán tại bảng tổng hợp chi trả\n- Trên Kế toán:\n+ Nhận được thông báo có bảng tổng hợp chi trả chuyển sang\n+ Sử dụng bảng tổng hợp chi trả này để lập phiếu chi tiền&quot;,&quot;6&quot;:1}" data-sheets-textstyleruns="{&quot;1&quot;:0,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:17}{&quot;1&quot;:72,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:86}">&#8211; Trên Tiền lương: HR thao tác chuyển kế toán tại bảng tổng hợp chi trả<br />
+&#8211; Trên Kế toán:<br />
++ Nhận được thông báo có bảng tổng hợp chi trả chuyển sang<br />
++ Sử dụng bảng tổng hợp chi trả này để lập phiếu chi tiền</td>
+</tr>
+<tr>
+<td style="width: 75.1406px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Chuyển bảng tạm tính thuế TNCN hàng tháng sang lập tờ khai&quot;}">Chuyển bảng tạm tính thuế TNCN hàng tháng sang lập tờ khai</td>
+<td style="width: 161.266px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Hàng tháng, HR sẽ lập bảng tạm tính thuế TNCN để xác định số tiền thuế TNCN khấu trừ của mỗi nhân viên, sau đó chuyển bảng tính thuế này cho HR phụ trách thủ tục thuế TNCN để lập tờ khai nộp cho Cơ quan thuế theo đúng quy định của nhà nước&quot;}">Hàng tháng, HR sẽ lập bảng tạm tính thuế TNCN để xác định số tiền thuế TNCN khấu trừ của mỗi nhân viên, sau đó chuyển bảng tính thuế này cho HR phụ trách thủ tục thuế TNCN để lập tờ khai nộp cho Cơ quan thuế theo đúng quy định của nhà nước</td>
+<td style="width: 46.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Tiền lương&quot;}">Tiền lương</td>
+<td style="width: 51.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Thuế TNCN&quot;}">Thuế TNCN</td>
+<td style="width: 226.406px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;- Trên Tiền lương: HR thao tác chuyển sang Thuế TNCN tại bảng thuế\n- Trên Thuế TNCN: \n+ Nhận được thông báo có bảng thuế chuyển sang\n+ Sử dụng bảng thuế này để tổng hợp số liệu lên tờ khai&quot;,&quot;6&quot;:1}" data-sheets-textstyleruns="{&quot;1&quot;:0,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:17}{&quot;1&quot;:67,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:83}">&#8211; Trên Tiền lương: HR thao tác chuyển sang Thuế TNCN tại bảng thuế<br />
+&#8211; Trên Thuế TNCN:<br />
++ Nhận được thông báo có bảng thuế chuyển sang<br />
++ Sử dụng bảng thuế này để tổng hợp số liệu lên tờ khai</td>
+</tr>
+<tr>
+<td style="width: 75.1406px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Chuyển bảng tính quyết toán thuế TNCN hàng năm sang lập tờ khai&quot;}">Chuyển bảng tính quyết toán thuế TNCN hàng năm sang lập tờ khai</td>
+<td style="width: 161.266px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Hàng năm, HR sẽ lập bảng tính quyết toán thuế TNCN để xác định số tiền thuế TNCN đã nộp, phải nộp cả năm của mỗi nhân viên, sau đó chuyển bảng tính quyết toán này cho HR phụ trách thủ tục thuế TNCN để lập tờ khai và các phụ lục nộp cho Cơ quan thuế theo đúng quy định của nhà nước&quot;}">Hàng năm, HR sẽ lập bảng tính quyết toán thuế TNCN để xác định số tiền thuế TNCN đã nộp, phải nộp cả năm của mỗi nhân viên, sau đó chuyển bảng tính quyết toán này cho HR phụ trách thủ tục thuế TNCN để lập tờ khai và các phụ lục nộp cho Cơ quan thuế theo đúng quy định của nhà nước</td>
+<td style="width: 46.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Tiền lương&quot;}">Tiền lương</td>
+<td style="width: 51.0938px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Thuế TNCN&quot;}">Thuế TNCN</td>
+<td style="width: 226.406px;" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;- Trên Tiền lương: HR thao tác chuyển sang Thuế TNCN tại bảng quyết toán thuế\n- Trên Thuế TNCN: \n+ Nhận được thông báo có bảng quyết toán thuế chuyển sang\n+ Sử dụng bảng quyết toán thuế này để tổng hợp số liệu lên tờ khai&quot;,&quot;6&quot;:1}" data-sheets-textstyleruns="{&quot;1&quot;:0,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:17}{&quot;1&quot;:78,&quot;2&quot;:{&quot;5&quot;:1}}{&quot;1&quot;:94}">&#8211; Trên Tiền lương: HR thao tác chuyển sang Thuế TNCN tại bảng quyết toán thuế<br />
+&#8211; Trên Thuế TNCN:<br />
++ Nhận được thông báo có bảng quyết toán thuế chuyển sang<br />
++ Sử dụng bảng quyết toán thuế này để tổng hợp số liệu lên tờ khai</td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+					
+					<wfw:commentRss>/amis-tien-luong/kb/tong-quan-luong-ket-noi-nghiep-vu-giua-cac-ung-dung-trong-bo-misa-amis-hrm/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>[Hướng dẫn chung] Luồng nghiệp vụ tính lương tổng quan trên AMIS Tiền lương</title>
+		<link>/amis-tien-luong/kb/huong-dan-chung-luong-nghiep-vu-tinh-luong-tong-quan-tren-amis-tien-luong/</link>
+					<comments>/amis-tien-luong/kb/huong-dan-chung-luong-nghiep-vu-tinh-luong-tong-quan-tren-amis-tien-luong/#respond</comments>
+		
+		<dc:creator><![CDATA[Vũ Ngọc Mai]]></dc:creator>
+		<pubDate>Sun, 06 Mar 2022 12:26:08 +0000</pubDate>
+				<guid isPermaLink="false">/amis-tien-luong/?post_type=ht_kb&#038;p=15323</guid>
+
+					<description><![CDATA[Giúp HR nắm được các bước cơ bản để thực hiện nghiệp vụ tính lương trên chương trình. 1. Luồng thực hiện nghiệp vụ chung Các bước thực hiện luồng nghiệp vụ cơ bản trên phần mềm: Bước 1: Kiểm tra các thiết lập Bước 2: Khai báo thành phần...]]></description>
+										<content:encoded><![CDATA[<p>Giúp HR nắm được các bước cơ bản để thực hiện nghiệp vụ tính lương trên chương trình.</p>
+<h3><strong>1. Luồng thực hiện nghiệp vụ chung</strong></h3>
+<p><img loading="lazy" class="alignnone size-full wp-image-15351" src="/amis-tien-luong/wp-content/uploads/2022/03/So-do-tinh-luong.png" alt="" width="1895" height="305" /></p>
+<p>Các bước thực hiện luồng nghiệp vụ cơ bản trên phần mềm:</p>
+<p><strong>Bước 1</strong>: <a href="https://helpamis.misa.vn/amis-tien-luong/ac/bat-dau-su-dung-amis-tien-luong/">Kiểm tra các thiết lập</a></p>
+<p><strong>Bước 2</strong>: <a href="https://helpamis.misa.vn/amis-tien-luong/kb/quan-ly-khoan-muc-luong/">Khai báo thành phần lương</a></p>
+<p><strong>Bước 3</strong>: <a href="https://helpamis.misa.vn/amis-tien-luong/kb/chinh-sach-luong/">Thiết lập mẫu bảng lương</a></p>
+<p><strong>Bước 4</strong>: <a href="https://helpamis.misa.vn/amis-tien-luong/ac/tong-hop-du-lieu-tinh-luong-vai-tro-hr/">Tổng hợp dữ liệu tính lương</a></p>
+<p><strong>Bước 5</strong>: <a href="https://helpamis.misa.vn/amis-tien-luong/kb/lap-bang-luong/">Lập bảng lương</a></p>
+<p><strong>Bước 6</strong>: <a href="https://helpamis.misa.vn/amis-tien-luong/kb/lap-bang-luong/">Xác nhận lương với nhân viên</a></p>
+<p><strong>Bước 7</strong>: <a href="https://helpamis.misa.vn/amis-tien-luong/kb/lap-bang-chi-tra/">Chi trả lương</a></p>
+<p>Lưu ý: Đây là các bước cơ bản cần có để có thể thực hiện được nghiệp vụ trên phần mềm. Ngoài ra, đối với những tính năng nâng cao hoặc tiện ích khác, anh/chị có thể theo dõi thêm tại các bài hướng dẫn chi tiết theo từng nghiệp vụ và câu hỏi thường gặp.</p>
+<h3><strong>2. Ví dụ mẫu </strong></h3>
+<p>Để dễ hình dung về cách tính lương trên phần mềm, các anh/chị theo dõi ví dụ mẫu sau đây:</p>
+<p>Văn phòng Tổng công ty của Công ty Cổ phần MISA có chính sách lương như sau:</p>
+<p>1. Các khoản thu nhập cố định:</p>
+<ul>
+<li>Lương ngày công: = Lương cơ bản (mức lương thỏa thuận trong hợp đồng)*Tổng công hưởng lương/Số công chuẩn</li>
+<li>Phụ cấp trách nhiệm cho các vị trí quản lý</li>
+<li>Phụ cấp điện thoại cho các vị trí thuộc phòng hành chính và PR</li>
+</ul>
+<p>2. Các khoản thu nhập không cố định, có thể phát sinh thêm tùy tháng:</p>
+<ul>
+<li>Công tác phí: Nếu trong tháng nhân viên đi công tác thì có thêm công tác phí theo số tiền thực tế phát sinh</li>
+<li>Quà lễ, tết: Vào các tháng có ngày lễ, tết (VD: Tết dương lịch, 10/3, 30/4, 1/5,&#8230;) thì nhân viên được thưởng theo chính sách: nhân viên chính thức được 1.000.000đ, nhân viên thử việc được 500.000đ</li>
+</ul>
+<p>3. Các khoản khấu trừ:</p>
+<ul>
+<li>BHXH, BHYT, BHTN: Đóng trên mức Lương đóng BH = 5.000.000đ</li>
+<li>Thuế TNCN</li>
+</ul>
+<p>Dưới đây là mẫu bảng lương của văn phòng:</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15333" src="/amis-tien-luong/wp-content/uploads/2022/03/Bang-luong-mau-1-1.png" alt="" width="1718" height="254" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15332" src="/amis-tien-luong/wp-content/uploads/2022/03/Bang-luong-mau-2.png" alt="" width="1415" height="195" /></p>
+<p>Để lập được bảng lương này trên chương trình, anh/chị thực hiện các bước sau:</p>
+<h4><strong>Bước 1: Kiểm tra các thiết lập</strong></h4>
+<p>Anh/chị truy cập vào phân hệ <strong>Thiết lập </strong>(biểu tượng <strong><img loading="lazy" class="alignnone size-full wp-image-1037" style="display: unset;" src="/amis-tien-luong/wp-content/uploads/2022/03/icon-banh-rang.png" alt="" width="30" height="30" /></strong>) để kiểm tra các thiết lập về chính sách lương, thuế TNCN, bảo hiểm và điều chỉnh cho đúng với của công ty. Đặc biệt cần lưu ý 2 phần:</p>
+<ul>
+<li>Nhân viên: Nhập các thông tin nhân viên phục vụ tính lương (lịch sử lương, mức lương đóng bảo hiểm, tỷ lệ đóng bảo hiểm, thuế suất, người phụ thuộc,&#8230;)</li>
+<li>Thông số mặc định: Khai báo các quy định về lương, thuế TNCN, bảo hiểm</li>
+</ul>
+<p><img loading="lazy" class="alignnone size-full wp-image-15349" src="/amis-tien-luong/wp-content/uploads/2022/03/Thiet-lap-1.png" alt="" width="1922" height="939" /></p>
+<h4><strong>Bước 2: Khai báo thành phần lương</strong></h4>
+<p>Mỗi khoản mục trên bảng lương tương ứng với một thành phần lương trên phần mềm. Anh/chị thực hiện khai báo đầy đủ thành phần lương theo mẫu bảng lương trên tại phân hệ <strong>Thành phần lương</strong>.</p>
+<p><em>Lưu ý: Trên phần mềm đã mặc định tạo sẵn 1 danh mục thành phần lương của hệ thống, bao gồm những khoản lương phổ biến mà hầu hết đơn vị nào cũng cần sử dụng. Anh/Chị kiểm tra tại danh mục này trước, nếu có thành phần lương mà công ty đang áp dụng thì đưa vào sử dụng luôn, nếu chưa có thành phần nào thì mới cần tạo thêm.</em></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15350" src="/amis-tien-luong/wp-content/uploads/2022/03/Than-phan-luong.png" alt="" width="1922" height="940" /></p>
+<p>Đối với mẫu bảng lương trên thì có thể thấy đã có sẵn khá nhiều thành phần lương trên chương trình, bao gồm:</p>
+<ul>
+<li>Lương cơ bản</li>
+<li>Lương đóng BH</li>
+<li>Số công chuẩn</li>
+<li>Tổng công hưởng lương</li>
+<li>Lương ngày công</li>
+<li>Số người phụ thuộc</li>
+<li>Giảm trừ gia cảnh</li>
+<li>Thu nhập chịu thuế</li>
+<li>Thu nhập tính thuế</li>
+<li>BHXH, BHYT, BHTN, KPCĐ</li>
+<li>Thuế TNCN</li>
+</ul>
+<p>Bây giờ, chỉ cần khai báo thêm các thành phần lương còn thiếu: Phụ cấp trách nhiệm, Phụ cấp điện thoại, Công tác phí, Quà lễ, tết.</p>
+<p>Trong đó, cần phân biệt rõ 2 loại:</p>
+<ul>
+<li>Các khoản phụ cấp cố định tháng nào cũng có của nhân viên (Phụ cấp trách nhiệm, Phụ cấp điện thoại): để trống giá trị tại Thành phần lương vì mỗi nhân viên, mỗi vị trí hưởng 1 số tiền khác nhau, thay vào đó cần khai báo các khoản phụ cấp này tại Lịch sử lương của nhân viên (tại <strong>Thiết lập\Nhân viên</strong>)</li>
+</ul>
+<p><img loading="lazy" class="alignnone size-full wp-image-15336" src="/amis-tien-luong/wp-content/uploads/2022/03/Phu-cap.png" alt="" width="1922" height="938" /></p>
+<p>Ngoài ra, để ghi nhận nhanh các khoản phụ cấp cho nhiều nhân viên thì có thể khai báo chính sách phụ cấp theo từng vị trí công việc tại phân hệ <strong>Thiết lập\Thông số mặc định\Phụ cấp</strong>.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15337" src="/amis-tien-luong/wp-content/uploads/2022/03/Chinh-sach-phu-cap.png" alt="" width="1922" height="1243" /></p>
+<ul>
+<li>Các khoản thu nhập không thường xuyên (Công tác phí, Quà lễ, tết): khoản Quà lễ, tết có quy tắc tính rõ ràng nên khai báo công thức tại trường Giá trị; khoản Công tác phí không có giá trị/công thức tính cố định nên để trống giá trị.</li>
+</ul>
+<p><img loading="lazy" class="alignnone size-full wp-image-15335" src="/amis-tien-luong/wp-content/uploads/2022/03/Them-thanh-phan-luong-2-1.png" alt="" width="1922" height="938" /></p>
+<h4><strong>Bước 3: Thiết lập mẫu bảng lương</strong></h4>
+<p>Tại phân hệ <strong>Mẫu bảng lương</strong>, thực hiện thêm mới mẫu bảng lương cho Văn phòng Tổng công ty.</p>
+<p>Tại đây, thêm vào lần lượt các thành phần lương theo như mẫu bảng lương trên Excel của đơn vị.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15338" src="/amis-tien-luong/wp-content/uploads/2022/03/Danh-sach-mau-bang-luong.png" alt="" width="2103" height="1166" /></p>
+<h4><strong>Bước 4: Tổng hợp dữ liệu tính lương</strong></h4>
+<p>Hàng tháng, trước khi lập bảng lương, anh/chị cần tổng hợp các dữ liệu đầu vào phục vụ cho việc tính lương. Cụ thể:</p>
+<ul>
+<li>Để tính ra Lương ngày công thì dữ liệu đầu vào là bảng chấm công</li>
+<li>Để tính ra Quà lễ, tết và Công tác phí thì dữ liệu đầu vào là bảng thu nhập khác</li>
+</ul>
+<p>Tại phân hệ <strong>Dữ liệu tính lương</strong>, truy cập vào từng mục tương ứng để tạo bảng dữ liệu.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15339" src="/amis-tien-luong/wp-content/uploads/2022/03/Du-lieu-tinh-luong.png" alt="" width="1922" height="939" /></p>
+<p>Ngoài ra, trong tháng có phát sinh tạm ứng lương cho nhân viên thì khai báo tại phân hệ <strong>Tính lương\Tạm ứng</strong>.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15340" src="/amis-tien-luong/wp-content/uploads/2022/03/Tam-ung-1.png" alt="" width="1922" height="1072" /></p>
+<h4><strong>Bước 5: Lập bảng lương</strong></h4>
+<p>Tại phân hệ <strong>Tính lương\Bảng lương</strong>, thực hiện tạo bảng lương cho Văn phòng Tổng công ty.</p>
+<p><em>Lưu ý: Tại trường Dữ liệu tính lương, cần chọn đủ các dữ liệu đầu vào đã khai báo tại bước 4, bao gồm bảng chấm công, bảng thu nhập khác và bảng tạm ứng.</em></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15341" src="/amis-tien-luong/wp-content/uploads/2022/03/Danh-sach-bang-luong.png" alt="" width="1922" height="1164" /></p>
+<p>Sau khi lưu, chương trình sẽ hiển thị ra bảng lương hoàn chỉnh với cấu trúc như đã thiết lập tại Mẫu bảng lương và tự động tính toán các khoản lương theo công thức đã thiết lập.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15342" src="/amis-tien-luong/wp-content/uploads/2022/03/Bang-luong-thang-6.png" alt="" width="1922" height="867" /></p>
+<h4><strong>Bước 6: Xác nhận lương với nhân viên</strong></h4>
+<p>Sau khi tính lương hoàn tất, anh/chị nhấn nút <strong>Gửi phiếu lương</strong> để gửi phiếu lương đến cho nhân viên xác nhận trước khi trả lương.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15344" src="/amis-tien-luong/wp-content/uploads/2022/03/Gui-phieu-luong-1-1.png" alt="" width="1923" height="609" /></p>
+<p>Sau khi gửi, nhân viên sẽ xem được phiếu lương của mình trên ứng dụng AMIS Nhân viên (bản Web) hoặc MISA AMIS (bản Mobile).</p>
+<h4><strong>Bước 7: Chi trả lương</strong></h4>
+<p>Sau khi đã xác nhận lương chính xác, anh/chị nhấn nút <strong>Trả lương</strong> trên bảng lương này hoặc vào phân hệ <strong>Chi trả lương</strong> để lập bảng chi trả lương cho nhân viên.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15345" src="/amis-tien-luong/wp-content/uploads/2022/03/Tra-luong.png" alt="" width="1918" height="1057" /></p>
+<p>Sau khi lưu, chương trinh sẽ hiển thị bảng thống kê số tiền lương đợt này cần trả cho từng nhân viên và số tiền công ty thực trả.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15346" src="/amis-tien-luong/wp-content/uploads/2022/03/Bang-chi-tra.png" alt="" width="1922" height="867" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/amis-tien-luong/kb/huong-dan-chung-luong-nghiep-vu-tinh-luong-tong-quan-tren-amis-tien-luong/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Xuất khẩu dữ liệu</title>
+		<link>/amis-tien-luong/kb/xuat-khau-du-lieu/</link>
+					<comments>/amis-tien-luong/kb/xuat-khau-du-lieu/#respond</comments>
+		
+		<dc:creator><![CDATA[Lê Thị Ngọc Anh]]></dc:creator>
+		<pubDate>Fri, 17 Sep 2021 09:36:22 +0000</pubDate>
+				<guid isPermaLink="false">/amis-tien-luong/?post_type=ht_kb&#038;p=5819</guid>
+
+					<description><![CDATA[Mục đích cho phép HR xuất khẩu nhanh các thông tin dưới dạng PDF, Excel hay xuất khẩu nâng cao với các cột dữ liệu muốn xuất khẩu. Hướng dẫn chi tiết 1.Xuất khẩu dữ liệu tính lương Giúp HR xuất khẩu nhanh các thông tin liên quan tới dữ...]]></description>
+										<content:encoded><![CDATA[<p>Mục đích cho phép HR xuất khẩu nhanh các thông tin dưới dạng PDF, Excel hay xuất khẩu nâng cao với các cột dữ liệu muốn xuất khẩu.</p>
+<p><strong>Hướng dẫn chi tiết</strong></p>
+<h3>1.Xuất khẩu dữ liệu tính lương</h3>
+<p>Giúp HR xuất khẩu nhanh các thông tin liên quan tới dữ liệu tính lương như: Chấm công, doanh số, KPI, sản phẩm, thu nhập khác, khấu trừ khác&#8230;</p>
+<p>Đầu tiên, anh chị vào phân hệ Dữ liệu tính lương và chọn dữ liệu tương ứng cần xuất khẩu. Ví dụ: Anh chị chọn Chấm công, sau đó màn hình sẽ hiện ra các bảng chấm công, anh chị di chuột vào bảng chấm công, chọn vào đây để xuất khẩu dữ liệu.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5831" src="/amis-tien-luong/wp-content/uploads/2021/09/xuat-khau-du-lieu-tinh-luong.gif" alt="" width="1920" height="1080" /></p>
+<p>Tương tự, anh chị chọn xuất khẩu theo doanh số, kpi, sản phẩm, thu nhập khác, khấu trừ khác&#8230;</p>
+<h3><strong>2. Xuất khẩu bảng lương, tạm ứng, tổng hợp lương, phân bổ lương, bảng thuế, quyết toán thuế.</strong></h3>
+<p>Anh chị xuất khẩu các thông tin về bảng lương, bảng tạm ứng, tổng hợp lương, phân bổ lương, bảng thuế, quyết toán thuế để nhập khẩu, cập nhật hoặc tính toán một cách nhanh chóng không mất nhiều thời gian.</p>
+<p>Trên phân hệ <strong>Tính lương</strong>, anh chị chọn thông tin muốn xuất khẩu như bảng lương, sau đó anh chị di chuột vào bảng lương cần xuất khẩu, chọn vào biểu tượng phía dưới để xuất khẩu sang các định dạng khác nhau như PDF, Excel..</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5832" src="/amis-tien-luong/wp-content/uploads/2021/09/xk-bang-luong.gif" alt="" width="1920" height="1080" /></p>
+<h3><strong>3. Xuất khẩu bảng chi trả lương</strong></h3>
+<p>Giúp HR xuất khẩu bảng lương để nhập khẩu, cập nhật hoặc thống kê, tính toán.</p>
+<p>Trên phân hệ Chi trả lương, anh chị chọn vào bảng lương muốn xuất khẩu, di chuột vào biểu tượng xuất khẩu để xuất khẩu các thông tin.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5836" src="/amis-tien-luong/wp-content/uploads/2021/09/Xk-chi-tra-luong-1.gif" alt="" width="1920" height="1080" /></p>
+<h3><strong>4. Xuất khẩu danh sách nhân viên</strong></h3>
+<p>Giúp HR xuất khẩu danh sách nhân viên để nhập khẩu hoặc thống kê báo cáo.</p>
+<p>Anh chị vào <strong>Thiết lập\Nhân viên</strong>, chọn biểu tượng xuất khẩu để xuất khẩu các thông tin về nhân viên.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5838" src="/amis-tien-luong/wp-content/uploads/2021/09/XK-danh-sach-nhan-vien.gif" alt="" width="1920" height="1080" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/amis-tien-luong/kb/xuat-khau-du-lieu/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Nhập khẩu dữ liệu</title>
+		<link>/amis-tien-luong/kb/nhap-khau-du-lieu/</link>
+					<comments>/amis-tien-luong/kb/nhap-khau-du-lieu/#respond</comments>
+		
+		<dc:creator><![CDATA[Lê Thị Ngọc Anh]]></dc:creator>
+		<pubDate>Mon, 13 Sep 2021 09:30:41 +0000</pubDate>
+				<guid isPermaLink="false">/amis-tien-luong/?post_type=ht_kb&#038;p=5792</guid>
+
+					<description><![CDATA[Giúp HR nhập khẩu được thông tin nhân viên, nhập khẩu dữ liệu tại bảng dữ liệu tính lương, tính lương và chi trả lương để HR tiết kiệm thời gian nhập liệu. Hướng dẫn chi tiết Để nhập khẩu đầy đủ các dữ liệu anh chị vào từng phân...]]></description>
+										<content:encoded><![CDATA[<p>Giúp HR nhập khẩu được thông tin nhân viên, nhập khẩu dữ liệu tại bảng dữ liệu tính lương, tính lương và chi trả lương để HR tiết kiệm thời gian nhập liệu.</p>
+<p><strong>Hướng dẫn chi tiết</strong></p>
+<p>Để nhập khẩu đầy đủ các dữ liệu anh chị vào từng phân hệ tương ứng, lựa chọn thông tin mình muốn nhập khẩu sau đó nhấn Nhập khẩu và thực hiện theo các bước.</p>
+<h3><strong>1.Tải lên tệp nhập khẩu</strong></h3>
+<p>Anh chị có thể sử file nhập khẩu hoặc tải tệp mẫu do chương trình cung cấp.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5823" src="/amis-tien-luong/wp-content/uploads/2021/09/tra-luong.gif" alt="" width="1920" height="1080" /></p>
+<h3><strong>2. Ghép trường thông tin</strong></h3>
+<p>Khai báo các cột dữ liệu trong tệp nhập khẩu.</p>
+<p>Khi gặp bản ghi có trên chương trình thì chọn: <strong>Cập nhật</strong> hoặc <strong>Bỏ qua.</strong></p>
+<p>Anh chị cũng có thể chọn Thiết lập tự động ghép cột.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5824" src="/amis-tien-luong/wp-content/uploads/2021/09/Thiet-lap-ghep-cot.gif" alt="" width="1920" height="1080" /></p>
+<p>Anh chị kiểm tra lại các thông tin ghép cột trên phầm mềm để đảm bảo tính chính xác.</p>
+<h3><strong>3. Kiểm tra dữ liệu</strong></h3>
+<p>Chương trình trả về kết quả dữ liệu hợp lệ/không hợp lệ.</p>
+<ul>
+<li><em>Dữ liệu hợp lệ</em> sẽ hiển thị đầy đủ các thông tin về Dòng, mã nhân viên,  Số trả, Kết quả kiểm tra,  Giải thích.</li>
+</ul>
+<p><img loading="lazy" class="alignnone size-full wp-image-5825" src="/amis-tien-luong/wp-content/uploads/2021/09/Kiem-tra-du-lieu.gif" alt="" width="1920" height="1080" /></p>
+<ul>
+<li><em>Dữ liệu không hợp lệ:</em> Nếu dữ liệu sai sẽ hiện lên các giải thích về mã nhân viên không tồn tại trên hệ thống hay số trả không đúng định dạng.</li>
+</ul>
+<p><img loading="lazy" class="alignnone size-full wp-image-5826" src="/amis-tien-luong/wp-content/uploads/2021/09/Du-lieu-khong-hop-le.gif" alt="" width="1920" height="1080" /></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/amis-tien-luong/kb/nhap-khau-du-lieu/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Kết nối ứng dụng khác</title>
+		<link>/amis-tien-luong/kb/ket-noi-ung-dung-khac/</link>
+					<comments>/amis-tien-luong/kb/ket-noi-ung-dung-khac/#respond</comments>
+		
+		<dc:creator><![CDATA[Lê Thị Ngọc Anh]]></dc:creator>
+		<pubDate>Fri, 16 Jul 2021 03:35:30 +0000</pubDate>
+				<guid isPermaLink="false">/amis-tien-luong/?post_type=ht_kb&#038;p=5671</guid>
+
+					<description><![CDATA[Thiết lập kết nối AMIS Tiền lương với các ứng dụng khác để lấy dữ liệu phục vụ tính lương. Hiện tại, AMIS Tiền lương đã đáp ứng kết nối với hai ứng dụng là AMIS Thông tin nhân sự và AMIS Chấm công: AMIS Thông tin nhân sự: Kết...]]></description>
+										<content:encoded><![CDATA[<p>Thiết lập kết nối AMIS Tiền lương với các ứng dụng khác để lấy dữ liệu phục vụ tính lương.</p>
+<p>Hiện tại, AMIS Tiền lương đã đáp ứng kết nối với hai ứng dụng là AMIS Thông tin nhân sự và AMIS Chấm công:</p>
+<ul>
+<li><strong>AMIS Thông tin nhân sự</strong>: Kết nối để lấy dữ liệu nhân viên (thông tin công việc, lịch sử lương, thông tin thuế, bảo hiểm)</li>
+<li><strong>AMIS Chấm công:</strong> Kết nối để lấy dữ liệu bảng chấm công tổng hợp hàng tháng làm căn cứ tính lương thời gian</li>
+</ul>
+<p><strong>Hướng dẫn chi tiết:</strong></p>
+<p>Tại màn hình <strong>Thiết lập\Kết nối: </strong>Hiển thị danh sách các ứng dụng cho phép kết nối và tình trạng kết nối hiện tại:</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-6055" src="/amis-tien-luong/wp-content/uploads/2021/07/Ket-noi-tien-luong.png" alt="" width="1920" height="703" /></p>
+<p>Khi mới sử dụng, chương trình đã mặc định bật kết nối với các ứng dụng công ty có cài đặt. Anh/Chị chỉ cần kiểm tra lại thiết lập này hoặc tùy chỉnh bật/tắt kết nối theo nhu cầu.</p>
+<p>Lưu ý:</p>
+<ul>
+<li>Để có thể thực hiện chức năng chuyển bảng chấm công tổng hợp từ AMIS Chấm công sang tính lương thì tại AMIS Tiền lương cần cho phép kết nối đến Chấm công.</li>
+<li>Khi kết nối đến AMIS Thông tin nhân sự, chương trình cho phép lựa chọn các loại thông tin muốn đồng bộ theo nhu cầu của đơn vị. Thông tin nào không được tích chọn thì coi như quản lý độc lập trên hai hệ thống, không liên thông với nhau.</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>/amis-tien-luong/kb/ket-noi-ung-dung-khac/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tùy chỉnh</title>
+		<link>/amis-tien-luong/kb/tuy-chinh/</link>
+					<comments>/amis-tien-luong/kb/tuy-chinh/#respond</comments>
+		
+		<dc:creator><![CDATA[Lê Thị Ngọc Anh]]></dc:creator>
+		<pubDate>Fri, 16 Jul 2021 03:17:18 +0000</pubDate>
+				<guid isPermaLink="false">/amis-tien-luong/?post_type=ht_kb&#038;p=5669</guid>
+
+					<description><![CDATA[Tùy chỉnh cách thể hiện định dạng số và biểu mẫu xuất khẩu từ phần mềm. Hướng dẫn chi tiết Tại màn hình Thiết lập &#8211; Tùy chỉnh: Anh/Chị có thể tùy chỉnh lại các thiết lập về định dạng số và biểu mẫu xuất khẩu từ phần mềm như...]]></description>
+										<content:encoded><![CDATA[<p>Tùy chỉnh cách thể hiện định dạng số và biểu mẫu xuất khẩu từ phần mềm.</p>
+<p><strong>Hướng dẫn chi tiết</strong></p>
+<p>Tại màn hình <strong>Thiết lập &#8211; Tùy chỉnh:</strong> Anh/Chị có thể tùy chỉnh lại các thiết lập về định dạng số và biểu mẫu xuất khẩu từ phần mềm như sau:</p>
+<p><span style="font-size: 14pt;"><strong>1. Định dạng số</strong></span></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5733" src="/amis-tien-luong/wp-content/uploads/2021/07/2021-07-19_13-41-17.png" alt="" width="1918" height="561" /></p>
+<p>Anh/Chị có thể tùy chỉnh lại cách thể hiện định dạng số bao gồm:</p>
+<ul>
+<li>Ký từ ngăn cách hàng nghìn</li>
+<li>Ký tự ngăn cách hàng thập phân</li>
+<li>Số chữ số hàng thập phân</li>
+<li>Cách thể hiện số âm</li>
+</ul>
+<p><span style="font-size: 14pt;"><strong>2. Mẫu xuất khẩu</strong></span></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5736" src="/amis-tien-luong/wp-content/uploads/2021/07/2021-07-19_13-42-53-1.png" alt="" width="1917" height="842" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5735" src="/amis-tien-luong/wp-content/uploads/2021/07/2021-07-19_13-43-42.png" alt="" width="1912" height="870" /></p>
+<p>Anh/Chị có thể tùy chỉnh các thông tin hiển thị trên mẫu xuất khẩu. Khi đó, các file xuất khẩu ra từ phần mềm (VD: bảng lương, báo cáo,&#8230;) sẽ mặc định được lấy theo cấu trúc đã thiết lập này.</p>
+<p>Các thông tin cho phép tùy chỉnh bao gồm:</p>
+<ul>
+<li>Thông tin công ty: Tùy chọn hiển thị Logo công ty, Tên công ty, Địa chỉ</li>
+<li>Chân chữ ký: Tùy chọn hiển thị các thông tin Ngày/tháng/năm và Chức danh, tên người ký</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>/amis-tien-luong/kb/tuy-chinh/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Thiết lập thông số mặc định</title>
+		<link>/amis-tien-luong/kb/thiet-lap-thong-so-mac-dinh/</link>
+					<comments>/amis-tien-luong/kb/thiet-lap-thong-so-mac-dinh/#respond</comments>
+		
+		<dc:creator><![CDATA[MVKiên]]></dc:creator>
+		<pubDate>Mon, 26 Apr 2021 09:52:04 +0000</pubDate>
+				<guid isPermaLink="false">http://helpamiscb.misa.local/?post_type=ht_kb&#038;p=5312</guid>
+
+					<description><![CDATA[Thiết lập các thông số mặc định về lương, thuế TNCN, bảo hiểm mà đơn vị đang áp dụng để ghi nhận nhanh vào hồ sơ cho hàng loạt nhân viên và làm căn cứ tính lương hàng tháng. Hướng dẫn chi tiết Tại màn hình Thiết lập/Thông số mặc...]]></description>
+										<content:encoded><![CDATA[
+<p>Thiết lập các thông số mặc định về lương, thuế TNCN, bảo hiểm mà đơn vị đang áp dụng để ghi nhận nhanh vào hồ sơ cho hàng loạt nhân viên và làm căn cứ tính lương hàng tháng.</p>
+
+
+
+<p><span style="font-size: 14pt;"><strong>Hướng dẫn chi tiết</strong></span></p>
+
+
+
+<p>Tại màn hình <strong>Thiết lập/Thông số mặc định</strong>: anh/chị kiểm tra lại các thiết lập mặc định của chương trình về lương, thuế TNCN, bảo hiểm, thang bảng lương và có thể chỉnh sửa lại theo quy định riêng của công ty. </p>
+
+
+
+
+
+
+
+<h3><span style="font-size: 14pt;"><strong>Lương</strong></span></h3>
+<p><img loading="lazy" class="alignnone size-full wp-image-5712" src="/amis-tien-luong/wp-content/uploads/2021/04/2021-07-19_10-50-07-2.png" alt="" width="1926" height="725" /></p>
+<ul>
+<li><strong>Mức lương cơ sở</strong>: Phần mềm đã mặc định lấy lên giá trị lương cơ sở bằng 1.490.000đ theo quy định của pháp luật hiện hành (đây là thông tin không được chỉnh sửa)</li>
+<li><strong>Mức lương trần đóng BHXH, BHYT</strong>: Tương tự mức lương cơ sở, phần mềm cũng đã mặc định hiển thị giá trị mức lương trần đóng BHXH, BHYT bằng 29.800.000đ (20 lần mức lương cơ sở) và không cho phép chỉnh sửa lại</li>
+<li><strong>Mức lương tối thiểu vùng</strong>: Khi mới sử dụng phần mềm, thông tin này sẽ để trống. Anh/Chị cần căn cứ vào địa bàn hoạt động của công ty để khai báo mức lương tối thiểu vùng cho từng đơn vị theo quy định của pháp luật. Sau đó, phần mềm sẽ tự động tính toán mức lương trần đóng BHTN bằng 20 lần lương tối thiểu vùng.</li>
+</ul>
+<p>Các thông số về lương đã thiết lập sẽ được sử dụng làm căn cứ xác định mức lương trần đóng bảo hiểm của từng lao động và cảnh báo cho anh/chị trong trường hợp khai báo lương cơ bản trong thông tin nhân viên nhỏ hơn lương tối thiểu vùng.</p>
+<h3><span style="font-size: 14pt;"><strong>Thuế TNCN</strong></span></h3>
+<p><img loading="lazy" class="alignnone size-full wp-image-5719" src="/amis-tien-luong/wp-content/uploads/2021/04/2021-07-19_11-11-37-2.png" alt="" width="1903" height="713" /></p>
+
+
+
+
+
+
+
+
+
+<ul>
+<li><strong>Thuế suất cho nhân viên thử việc</strong>: Anh/Chị lựa chọn mức thuế suất mặc định cho nhân viên thử việc là 10% hoặc theo biểu lũy tiến. Sau đó, mỗi khi có nhân viên tiếp nhận thử việc, phần mềm sẽ tự động ghi nhận mức thuế suất tương ứng vào hồ sơ nhân viên để anh/chị không phải mất công sức tự nhập liệu. Riêng với nhân viên chính thức, phần mềm sẽ mặc định chịu thuế theo biểu lũy tiến, ngoài ra anh/chị cũng có thể chỉnh sửa lại thông tin cho nhân viên trong hồ sơ.</li>
+</ul>
+<p><img loading="lazy" class="alignnone size-full wp-image-5716" src="/amis-tien-luong/wp-content/uploads/2021/04/2021-07-19_11-17-15.png" alt="" width="1919" height="824" /></p>
+<p style="text-align: center;"><em>Mức thuế suất đã thiết lập tại Thông số mặc định sẽ được tự động ghi nhận vào hồ sơ của những nhân viên thử việc</em></p>
+<ul>
+<li><strong>Biểu thuế lũy tiến</strong>: Tại đây, phần mềm đã mặc định lấy lên biểu thuế theo quy định của pháp luật hiện hành (không chỉnh sửa được). Đây sẽ là căn cứ để tính thuế TNCN hàng tháng cho nhân viên.</li>
+</ul>
+<p>Các thông số về thuế TNCN đã thiết lập sẽ được sử dụng làm căn cứ ghi nhận mức thuế suất mặc định cho từng người lao động trong hồ sơ và tính thuế TNCN trên bảng lương hàng tháng.</p>
+<h3><span style="font-size: 14pt;"><strong>Bảo hiểm</strong></span></h3>
+<p><img loading="lazy" class="alignnone size-full wp-image-5720" src="/amis-tien-luong/wp-content/uploads/2021/04/2021-07-19_11-29-43.png" alt="" width="1920" height="700" /></p>
+
+
+
+
+
+
+
+<ul>
+<li><strong>Nhân viên được đóng bảo hiểm:</strong> Anh/Chị có thể lựa chọn đối tượng nhân viên được tham gia bảo hiểm theo tính chất lao động (VD: Nhân viên chính thức được đóng bảo hiểm) hoặc theo thâm niên (VD: Nhân viên làm việc từ 6 tháng trở lên mới được đóng bảo hiểm).</li>
+<li><strong>Lương đóng bảo hiểm:</strong> Anh/Chị có thể thiết lập lương đóng bảo hiểm mặc định cho toàn bộ nhân viên là bằng mức lương cơ bản hoặc là số tiền cố định (VD: 5.000.000đ).</li>
+<li><strong>Tỷ lệ người lao động đóng</strong>: Phần mềm đã mặc định tỷ lệ đóng bảo hiểm của người lao động lần lượt là BHXH 8%, BHYT 1.5%, BHTN 1%. Đây là thông tin chung cho toàn bộ nhân viên và không sửa được, nếu anh/chị muốn thay đổi tỷ lệ đóng bảo hiểm cho nhân viên bất kỳ (VD: Lao động là người nước ngoài nên đóng theo tỷ lệ khác) thì có thể vào hồ sơ nhân viên để trực tiếp chỉnh sửa lại.</li>
+<li><strong>Tỷ lệ doanh nghiệp đóng</strong>: Phần mềm đã mặc định tỷ lệ đóng bảo hiểm của doanh nghiệp lần lượt là BHXH 17.5%, BHYT 3%, BHTN 1%, KPCD 2%. Ngoài ra, anh/chị có thể thiết lập lại các tỷ lệ này theo mức đóng thực tế tại doanh nghiệp.</li>
+</ul>
+<p><img loading="lazy" class="alignnone size-full wp-image-5722" src="/amis-tien-luong/wp-content/uploads/2021/04/2021-07-19_11-44-08-1.png" alt="" width="1922" height="822" /></p>
+<p>Các thông số về bảo hiểm đã thiết lập sẽ được sử dụng làm căn cứ ghi nhận thông tin bảo hiểm cho từng người lao động trong hồ sơ và trích BHXH, BHYT, BHTN, công đoàn phí trên bảng lương hàng tháng.</p>
+<header class="hkb-article__header">
+<h3 class="hkb-article__title"><span style="font-size: 14pt;"><strong>Thang bảng lương</strong></span></h3>
+</header>
+<div class="hkb-article__content">
+<p>Giúp HR quản lý thông tin về bậc lương của nhân viên, tính lương và các khoản phụ cấp của nhân viên theo thang, bậc lương.</p>
+<p>Trên giao diện Thiết lập\Thông số mặc định\Thang bảng lương, HR có thể xây dựng hệ thống thang bảng lương thỏa mãn quy định tại thông tư 17/2015/TT-BLĐTBXH để tính các khoản lương cơ bản và các khoản phụ cấp, khấu trừ,… của nhân viên tương ứng với trình độ của người lao động.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-6014" style="border-width: 1px; border-style: groove;" src="https://helpamis.misa.vn/amis-tien-luong/wp-content/uploads/2021/10/1.1.Mo-thang-bang-luong1.gif" alt="" width="1552" height="864" /></p>
+<h4 id="thiet-lap-don-gia-tien-luong"><strong>&#8211; Thiết lập đơn giá tiền lương</strong></h4>
+<p>HR có thể xem, sửa đơn giá tiền lương chi tiết theo đơn vị HR phụ trách. Chương trình sẽ hiển thị đơn giá tiền lương theo cơ cấu tổ chức của doanh nghiệp đã khai báo trên Hệ thống hoặc app Thông tin nhân sự.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-6015" style="border-width: 1px; border-style: groove;" src="https://helpamis.misa.vn/amis-tien-luong/wp-content/uploads/2021/10/1.2.Chi-tiet-don-gia.gif" alt="" width="1552" height="864" /></p>
+<h4 id="chi-tiet-thang-bang-luong"><strong>&#8211; Chi tiết thang bảng lương</strong></h4>
+<p>Thể hiện bậc lương tương ứng chức danh hoặc vị trí công việc. HR có thể sử dụng các tiện ích để quản lý chi tiết thang bảng lương như:</p>
+<ul>
+<li>Tìm kiếm thang bảng lương theo chức danh/vị trí công việc (1).</li>
+<li>Xem thang bảng lương theo cơ cấu tổ chức (2).</li>
+<li>Sửa bậc lương, xóa thang bảng lương (3). Có thể chọn từng thang bậc lương hoặc tích chọn hàng loạt.</li>
+<li>Xuất khẩu nhanh thang bảng lương (4).</li>
+</ul>
+<p><img loading="lazy" class="alignnone size-full wp-image-6018" style="border-width: 1px; border-style: groove;" src="https://helpamis.misa.vn/amis-tien-luong/wp-content/uploads/2021/10/1.3.Tien-ich1.jpg" alt="" width="1556" height="864" /></p>
+<h4 id="them-dong-thang-bang-luong"><strong>&#8211; Thêm dòng thang bảng lương</strong></h4>
+<p>HR có thể thêm dòng thang bậc lương bằng 2 cách:</p>
+<ul>
+<li>Thêm lần lượt cho từng vị trí/chức vụ.</li>
+</ul>
+<p><img loading="lazy" class="alignnone size-full wp-image-6017" style="border-width: 1px; border-style: groove;" src="https://helpamis.misa.vn/amis-tien-luong/wp-content/uploads/2021/10/1.4.them-dong.gif" alt="" width="1552" height="864" /></p>
+<ul>
+<li>Nhập khẩu thang bậc lương. Hướng dẫn chi tiết xem<a href="https://helpamis.misa.vn/amis-tien-luong/kb/nhap-khau-du-lieu/" target="_blank" rel="noopener"> tại đây</a>.</li>
+</ul>
+<p><img loading="lazy" class="alignnone size-full wp-image-6019" style="border-width: 1px; border-style: groove;" src="https://helpamis.misa.vn/amis-tien-luong/wp-content/uploads/2021/10/1.5.Nhap-khau.jpg" alt="" width="1554" height="859" /></p>
+<p><em><strong>Lưu ý:</strong> Chương trình sẽ lấy lên dữ liệu chức danh/vị trí công việc đã được khai báo trên hệ thống hoặc app Thông tin nhân sự.</em></p>
+<h4 id="cap-nhat-ho-so"><strong>&#8211; Cập nhật hồ sơ</strong></h4>
+<p>HR cần cập nhật thang bậc lương mới nhất lên hồ sơ nhân viên để làm dữ liệu tính lương.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-6021" style="border-width: 1px; border-style: groove;" src="https://helpamis.misa.vn/amis-tien-luong/wp-content/uploads/2021/10/1.6.Cap-nhat-ho-so.gif" alt="" width="1552" height="864" /></p>
+<p>Khi đó. lịch sử lương của nhân cũng sẽ tự động bổ sung dữ liệu tương ứng. Cụ thể với cách tính lương cơ bản:</p>
+<ul>
+<li>Nếu thang bảng lương theo hệ số: Lương cơ bản = Đơn giá tiền lương * Hệ số.</li>
+<li>Nếu thang bảng lương theo mức lương: Lương cơ bản = Mức lương tương ứng của từng bậc.</li>
+</ul>
+<p>HR có thể sửa lại để phù hợp với chính sách của công ty.</p>
+</div>
+
+
+
+
+]]></content:encoded>
+					
+					<wfw:commentRss>/amis-tien-luong/kb/thiet-lap-thong-so-mac-dinh/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Thiết lập vai trò, người dùng</title>
+		<link>/amis-tien-luong/kb/thiet-lap-vai-tro-nguoi-dung-tl/</link>
+					<comments>/amis-tien-luong/kb/thiet-lap-vai-tro-nguoi-dung-tl/#respond</comments>
+		
+		<dc:creator><![CDATA[MVKiên]]></dc:creator>
+		<pubDate>Mon, 26 Apr 2021 03:53:04 +0000</pubDate>
+				<guid isPermaLink="false">http://helpamiscb.misa.local/?post_type=ht_kb&#038;p=5163</guid>
+
+					<description><![CDATA[Thiết lập vai trò giúp quản trị ứng dụng thiết lập được vai trò khi sử dụng AMIS Tiền lương. Thiết lập người dùng giúp quản trị ứng dụng (thường là trưởng phòng, giám đốc, nhân sự&#8230;) quản lý được những người dùng AMIS Tiền lương và phân quyền cho...]]></description>
+										<content:encoded><![CDATA[
+<p>Thiết lập vai trò giúp quản trị ứng dụng thiết lập được vai trò khi sử dụng AMIS Tiền lương.</p>
+<p>Thiết lập người dùng giúp quản trị ứng dụng (thường là trưởng phòng, giám đốc, nhân sự&#8230;) quản lý được những người dùng AMIS Tiền lương và phân quyền cho người dùng truy cập vào ứng dụng của mình.</p>
+
+
+
+<p><strong>Hướng dẫn sử dụng</strong></p>
+
+
+
+<p>1<strong>. Thiết lập vai trò</strong></p>
+<p>Tùy thuộc vào việc người dùng khi truy cập vào AMIS Tiền lương sẽ có vai trò vị trí khác nhau tại công ty, chi nhánh, văn phòng mà mình phụ trách. Vậy nên, để thiết lập vai trò anh chị cần vào<strong> Thiết lập\Vai trò\Thêm</strong> để khai báo và thiết lập quyền hạn cho từng vai trò.</p>
+
+
+
+<p><img loading="lazy" class="alignnone size-full wp-image-5801" src="/amis-tien-luong/wp-content/uploads/2021/04/Thiet-lap-vai-tro-1.gif" alt="" width="1920" height="1080" /></p>
+
+
+
+
+
+<p>Hệ thống đã mặc định 2 vai trò là Quản trị ứng dụng tiền lương và HR để thuận tiện cho doanh nghiệp.</p>
+
+
+
+<ul>
+<li>Quản trị ứng dụng tiền lương là người được toàn quyền sử dụng ứng dụng.</li>
+<li>HR là người có quyền hạn chế hơn Quản trị ứng dụng tiền lương.</li>
+</ul>
+
+
+
+<p>Nếu đơn vị có nhiều HR với các quyền hạn khác nhau thì Quản trị ứng dụng hoặc Quản trị hệ thống có thể thêm vai trò và phân quyền chi tiết cho từng vai trò theo nhu cầu quản trị riêng của đơn vị.</p>
+<p>Anh chị thiết lập các thiết lập chung,  phân quyền phân hệ, phân quyền thiết lập cụ thể có được thêm, sửa, xóa&#8230; hay không.</p>
+
+
+
+<p><strong>2. Thiết lập người dùng</strong></p>
+<p>Quản trị ứng dụng của phần mềm có thể theo dõi, quản lý được danh sách ai được phân quyền trên ứng dụng. Quản trị ứng dụng có thể phân quyền người dùng vào ứng dụng với các mức độ, vai trò khác nhau theo sự sắp xếp, quản lý của đơn vị, văn phòng.</p>
+
+
+
+<p>Để thiết lập người dùng, anh chị vào <strong>Thiết lập\Người dùng\Thêm mới</strong> để khai báo người dùng và phân quyền cho từng người dùng.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5802" src="/amis-tien-luong/wp-content/uploads/2021/04/Nguoi-dung-ung-dung.gif" alt="" width="1920" height="1080" /></p>
+<p>Anh chị cũng có thể thực hiện chức năng Thêm, sửa xóa, thông tin sẽ được đồng bộ sang hệ thống và ngược lại.</p>
+
+
+
+
+
+<p><strong>Lưu ý: </strong></p>
+
+
+
+<p>Quản trị hệ thống có thể thêm và phân quyền cho nhân viên trên Hệ thống hoặc trong ứng dụng Tiền lương.</p>
+
+
+
+<p>Nếu một người được phân nhiều vai trò thì người đó được sử dụng các chức năng theo quyền hạn của tất cả các vai trò.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/amis-tien-luong/kb/thiet-lap-vai-tro-nguoi-dung-tl/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Khai báo danh sách nhân viên</title>
+		<link>/amis-tien-luong/kb/khai-bao-danh-sach-nhan-vien-tl/</link>
+					<comments>/amis-tien-luong/kb/khai-bao-danh-sach-nhan-vien-tl/#respond</comments>
+		
+		<dc:creator><![CDATA[MVKiên]]></dc:creator>
+		<pubDate>Sat, 17 Apr 2021 04:23:11 +0000</pubDate>
+				<guid isPermaLink="false">http://helpamiscb.misa.local/?post_type=ht_kb&#038;p=5155</guid>
+
+					<description><![CDATA[Giúp HR theo dõi được danh sách nhân viên và khai báo các thông tin cá nhân, thông tin lương, thuế, bảo hiểm của từng nhân viên để phục vụ việc tính lương. Hướng dẫn chi tiết: Tại phân hệ Thiết lập\Nhân viên: Hiển thị danh sách và các thông...]]></description>
+										<content:encoded><![CDATA[
+<p>Giúp HR theo dõi được danh sách nhân viên và khai báo các thông tin cá nhân, thông tin lương, thuế, bảo hiểm của từng nhân viên để phục vụ việc tính lương.</p>
+
+
+
+<p><strong>Hướng dẫn chi tiết:</strong></p>
+<p>Tại phân hệ <strong>Thiết lập\Nhân viên</strong>: Hiển thị danh sách và các thông tin chi tiết của nhân viên đã được đồng bộ về ứng dụng.</p>
+<p><span style="font-size: 14pt;"><strong>1. Đồng bộ dữ liệu nhân viên về ứng dụng: </strong></span></p>
+
+
+
+<p><img loading="lazy" class="alignnone size-full wp-image-5790" src="/amis-tien-luong/wp-content/uploads/2021/04/Khai-bao-thong-tin-nhan-vien.gif" alt="" width="1920" height="1080" /></p>
+
+
+
+
+
+<p>Trong lần sử dụng đầu tiên, anh/chị nhấn nút <strong>&#8220;Lấy lại dữ liệu</strong>&#8221; để phần mềm đồng bộ danh sách nhân viên từ Hệ thống/AMIS Thông tin nhân sự về ứng dụng.</p>
+<ul>
+<li>Nếu công ty có sử dụng và kết nối với ứng dụng AMIS Thông tin nhân sự (tại phân hệ <a href="https://helpamis.misa.vn/amis-tien-luong/kb/ket-noi-ung-dung-khac/">Thiết lập\Kết nối</a>) thì chương trình sẽ đồng bộ danh sách nhân viên từ đây.</li>
+<li>Nếu công ty không sử dụng AMIS Thông tin nhân sự thì chương trình sẽ đồng bộ danh sách nhân viên từ Hệ thống.</li>
+</ul>
+<p>Kể từ những lần tiếp theo, chương trình sẽ tự động đồng bộ dữ liệu nhân viên mới về ứng dụng. Ngoài ra, trong trường hợp phần mềm chưa kịp đồng bộ thì anh/chị cũng có thể nhấn nút Lấy lại dữ liệu để tự cập nhật lại danh mục theo các thông tin mới nhất. </p>
+<p><span style="font-size: 14pt;"><strong>2. Cập nhật, bổ sung thông tin nhân viên:</strong></span></p>
+<p>Sau khi đã đồng bộ danh mục, anh/chị có thể kiểm tra và cập nhật, bổ sung thêm các thông tin khác của nhân viên để phục vụ tính lương như Lịch sử lương, Bảo hiểm &#8211; Công đoàn, Thuế TNCN. </p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5793" src="/amis-tien-luong/wp-content/uploads/2021/04/Khai-bao-thong-tin-nhan-vien-1.gif" alt="" width="1920" height="1080" /></p>
+
+
+
+
+
+<p>Trong đó:</p>
+<ul>
+<li>Thông tin chung: Được đồng bộ từ Hệ thống/Thông tin nhân sự. Lưu ý: Với các thông tin cơ bản của nhân viên được lưu trữ trên Hệ thống như Mã nhân viên, Họ và tên, Đơn vị công tác, Vị trí công việc,&#8230; thì người dùng không được phép chỉnh sửa trên ứng dụng Tiền lương.</li>
+<li>Lịch sử lương: Được đồng bộ từ Thông tin nhân sự (nếu có kết nối). Ngoài ra, nếu không sử dụng Thông tin nhân sự thì anh/chị cũng có thể tự khai báo tại đây.</li>
+<li>Bảo hiểm &#8211; Công đoàn: Trạng thái tham gia công đoàn, tham gia bảo hiểm và mức lương đóng BH được đồng bộ từ AMIS Thông tin nhân sự (nếu có kết nối); còn tỷ lệ đóng các loại bảo hiểm được mặc định lấy theo thiết lập tại <a href="https://helpamis.misa.vn/amis-tien-luong/kb/thiet-lap-thong-so-mac-dinh/">Thông số mặc định</a>.</li>
+<li>Thuế TNCN: Danh sách người phụ thuộc được đồng bộ từ AMIS Thông tin nhân sự (nếu có kết nối); còn mức thuế suất được mặc định lấy theo thiết lập tại <a href="https://helpamis.misa.vn/amis-tien-luong/kb/thiet-lap-thong-so-mac-dinh/">Thông số mặc định</a>.</li>
+</ul>
+<p>Ngoài ra, để cập nhật nhanh các thông tin này cho hàng loạt nhân viên, anh/chị nên sử dụng chức năng<a href="https://helpamis.misa.vn/amis-tien-luong/kb/nhap-khau-du-lieu/"> <strong>Nhập khẩu</strong> </a>của chương trình.</p>
+
+
+
+
+
+
+
+<p><img loading="lazy" class="alignnone size-full wp-image-6061" src="/amis-tien-luong/wp-content/uploads/2021/04/Screenshot-2021-10-28-012259.png" alt="" width="1920" height="931" /></p>
+
+
+]]></content:encoded>
+					
+					<wfw:commentRss>/amis-tien-luong/kb/khai-bao-danh-sach-nhan-vien-tl/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Thiết lập hệ thống</title>
+		<link>/amis-tien-luong/kb/thiet-lap-he-thongtl/</link>
+					<comments>/amis-tien-luong/kb/thiet-lap-he-thongtl/#respond</comments>
+		
+		<dc:creator><![CDATA[MVKiên]]></dc:creator>
+		<pubDate>Mon, 12 Apr 2021 09:53:20 +0000</pubDate>
+				<guid isPermaLink="false">http://helpamiscb.misa.local/?post_type=ht_kb&#038;p=5174</guid>
+
+					<description><![CDATA[HR có thể theo dõi thiết lập các thông tin về hệ thống, cấu hình mail, nhật ký truy cập để nhận, gửi email thông báo tiền lương cho từng đơn vị kịp thời, thuận tiện Hướng dẫn chi tiết 1. Cấu hình email Vào Thiết lập/ Hệ thống/ Cấu...]]></description>
+										<content:encoded><![CDATA[
+<p>HR có thể theo dõi thiết lập các thông tin về hệ thống, cấu hình mail, nhật ký truy cập để nhận, gửi email thông báo tiền lương cho từng đơn vị kịp thời, thuận tiện</p>
+
+
+
+<p><span style="font-size: 14pt;"><strong>Hướng dẫn chi tiết</strong></span></p>
+
+
+
+<h3><strong>1. Cấu hình email</strong></h3>
+
+
+
+<p>Vào <strong>Thiết lập/ Hệ thống/ Cấu hình email</strong> để thực hiện thiết lập cấu hình email thông báo để gửi thông báo về lương. Tại đây sẽ hiển thị danh sách đơn vị trong phạm vi được phân quyền của từng người dùng.</p>
+<p><img loading="lazy" class="size-full wp-image-5804" src="/amis-tien-luong/wp-content/uploads/2021/04/Thiet-lap-cau-hinh-email.gif" alt="" width="1920" height="1080" /></p>
+<p>&nbsp;</p>
+<p>Khi mới sử dụng phần mềm, chương trình sẽ để trống cấu hình mail tại tất cả đơn vị. Nhấn nút <strong>Sửa</strong> tại từng dòng để thiết lập cấu hình mail:</p>
+<ul>
+<li>
+<p><strong>Máy chủ mail,</strong> <strong>Cổng</strong>, <strong>Phương thức bảo mật</strong>: Nhập thông tin máy chủ và cổng của hệ thống gửi email tại đơn vị. Một số thông tin của các máy chủ thông dụng:</p>
+<ul>
+<li>Máy chủ Gmail: smtp.gmail.com; Cổng: 465; Phương thức bảo mật: TLS</li>
+<li>Máy chủ Yahoo: smtp.mail.yahoo.com, Cổng: 465; Phương thức bảo mật: SSL</li>
+<li>Máy chủ Secureserver.net: smtpout.secureserver.net; Cổng: 80; Phương thức bảo mật: Không</li>
+<li>Nếu là máy chủ mail của riêng công ty thì HR liên hệ với Quản trị mạng của công ty để được cung cấp thông tin</li>
+</ul>
+</li>
+<li><strong>Số mail gửi một lần, Thời gian gửi giữa các lần</strong>: Chương trình mặc định là 30 email/lần và thời gian gửi giữa các lần là 5 giây để tránh quá tải cho hệ thống. Nếu muốn điều chỉnh thì có thể nhập lại giá trị tại các trường này. </li>
+<li><strong>Địa chỉ email gửi</strong>: Nhập địa chỉ email muốn sử dụng để gửi thông báo trong hệ thống.</li>
+<li><strong>Địa chỉ email hiển thị:</strong> Nhập địa chỉ email muốn hiển thị lên với người nhận email</li>
+<li><strong>Tên hiển thị</strong>: Nhập tên muốn hiển thị lên với người nhận email</li>
+<li><strong>Tên đăng nhập,</strong> <strong>Mật khẩu</strong>: Nhập thông tin tài khoản đăng nhập vào địa chỉ email của người gửi</li>
+<li><strong>Chân chữ ký:</strong> Nhập các nội dung muốn hiển thị tại phần chân chữ ký của email</li>
+<li><strong>Áp dụng cho đơn vị con:</strong> Tích chọn nếu muốn áp dụng cấu hình mail này cho tất cả các đơn vị con thuộc đơn vị đang chọn </li>
+</ul>
+<p>Sau khi nhập đầy đủ, nhấn <strong>Kiểm tra thiết lập </strong>để xem thông tin về cấu hình email đã đúng hay chưa, nếu chưa đúng thì thực hiện thiết lập lại.</p>
+<p>Trong quá trình thực hiện, anh/chị có thể gặp lỗi bảo mật, do hệ thống bật bảo mật 2 lớp, khiến ứng dụng không thể dùng tài khoản để đăng nhập trực tiếp và thực hiện gửi mail. Khi đó anh chị thực hiện như sau:</p>
+<ul>
+<li><strong>Bước 1:</strong> Truy cập vào trang <a href="https://myaccount.google.com/">https://myaccount.google.com/</a>, đăng nhập tài khoản Gmail của mình.</li>
+<li><strong>Bước 2:</strong> Vào phân hệ bảo mật\xác minh 2 bước để tắt xác minh 2 bước.</li>
+<li><strong>Bước 3:</strong> Tiếp theo, truy cập vào mục <strong>Quyền truy cập của ứng dụng kém an toàn </strong>để bật quyền này lên.</li>
+<li><strong>Bước 4:</strong> Sau đó thực hiện thiết lập cấu hình mail như bình thường.</li>
+</ul>
+<p><img loading="lazy" class="alignnone size-full wp-image-15349" src="https://helpamis.misa.vn/wp-content/uploads/2021/04/myacc.gif" alt="" width="1920" height="1080" /></p>
+<p><strong>Lưu ý:</strong></p>
+<ul>
+<li>Trường hợp doanh nghiệp có quy mô lớn, số lượng email phát sinh nhiều thì nên khai báo mỗi chi nhánh/văn phòng 1 email riêng để tránh bị quá tải dẫn đến không gửi được thông báo.</li>
+<li>Nếu doanh nghiệp sử dụng Gmail thì lưu ý Gmail miễn phí có giới hạn số lượng email được gửi.</li>
+<li>Nếu không thiết lập cấu hình mail tại đây, chương trình sẽ thực hiện gửi email theo <a href="https://helpamis.misa.vn/kb/cau-hinh-mail-server-mac-dinh/">cấu hình mail chung trên Hệ thống</a>. </li>
+</ul>
+<h3><strong>2. Nhân sự quản lý tiền lương</strong></h3>
+<p>Anh chị vào <strong>Thiết lập\Hệ thống\Nhân sự quản lý tiền lương</strong> để thiết lập các thông tin người dùng quản lý tiền lương tại các chi nhánh, văn phòng để nhận được email, thông báo về lương.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5805" src="/amis-tien-luong/wp-content/uploads/2021/04/Nhan-su-quan-ly-tien-luong.gif" alt="" width="1920" height="1080" /></p>
+
+
+
+<p>HR khai báo email cá nhân của mình hay những người có quyền hạn truy cập quản lý tiền lương của đơn vị để kịp thời nhận thông báo.</p>
+
+
+
+<p>Đơn vị có cơ cấu tổ chức lớn, mỗi đơn vị lại có một HR quản lý tiền lương riêng thì Admin cần khai báo email riêng cho từng HR của chi nhánh/ văn phòng đó để nhận được đúng email của nhân viên chi nhánh quản lý.</p>
+
+
+
+<h3><strong>3. Nhật ký truy cập</strong></h3>
+
+
+
+<p>Khi có vấn đề về dữ liệu, HR có thể xem lại nhật ký truy cập để tìm ra nguyên nhân.</p>
+<p>Anh chị vào <strong>Thiết lập\Hệ thống\Nhật ký truy cập</strong> để xem lại tất cả các lịch sử truy cập.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5806" src="/amis-tien-luong/wp-content/uploads/2021/04/Nhat-ky-truy-cap.gif" alt="" width="1920" height="1080" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/amis-tien-luong/kb/thiet-lap-he-thongtl/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

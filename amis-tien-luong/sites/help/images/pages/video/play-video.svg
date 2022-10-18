@@ -1,0 +1,18 @@
+<svg id="Component_3_292" data-name="Component 3 – 292" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="63" viewBox="0 0 63 63">
+  <defs>
+    <filter id="Polygon_1" x="13" y="10" width="44" height="51" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Ellipse_2" data-name="Ellipse 2" fill="rgba(255,255,255,0.2)" stroke="#fff" stroke-width="1.5">
+    <circle cx="31.5" cy="31.5" r="31.5" stroke="none"/>
+    <circle cx="31.5" cy="31.5" r="30.75" fill="none"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Polygon_1)">
+    <path id="Polygon_1-2" data-name="Polygon 1" d="M15.656,1.33a1,1,0,0,1,1.689,0L32.025,24.464A1,1,0,0,1,31.181,26H1.819a1,1,0,0,1-.844-1.536Z" transform="translate(48 16) rotate(90)" fill="#fff"/>
+  </g>
+</svg>

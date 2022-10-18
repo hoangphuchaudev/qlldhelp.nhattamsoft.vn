@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-ic-fb">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="ic-fb" clip-path="url(#clip-ic-fb)">
+    <g id="ic_Facebook_cl">
+      <circle id="Ellipse_239" data-name="Ellipse 239" cx="12" cy="12" r="12" fill="#212121"/>
+      <g id="Facebook_1_" transform="translate(9.29 6.182)">
+        <g id="Group_102_1_" transform="translate(0 0)">
+          <path id="Path_38_1_" d="M-62.251-1735.428v-1.956h0v-.054a.487.487,0,0,1,.489-.489h1.521v-2.173h-2.282a2.356,2.356,0,0,0-2.119,2.336v2.336H-66v2.173h1.358v5.107h2.39v-5.378h1.521l.272-1.9Z" transform="translate(66 1740.1)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

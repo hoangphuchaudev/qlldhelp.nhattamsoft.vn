@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>  </title>
+	<atom:link href="/amis-tien-luong/ac/rc22-phat-hanh-ngay-14-06-2022/feed/" rel="self" type="application/rss+xml" />
+	<link>http://helpamis.misa.vn/amis-tien-luong</link>
+	<description>Phần mềm quản lý tiền lương</description>
+	<lastBuildDate>Fri, 17 Jun 2022 04:52:29 +0000</lastBuildDate>
+	<language>vi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7</generator>
+
+<image>
+	<url>/amis-tien-luong/wp-content/uploads/2021/07/favicon-1-1.png</url>
+	<title>  </title>
+	<link>http://helpamis.misa.vn/amis-tien-luong</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Lập bảng phân bổ lương theo đối tượng tập hợp chi phí</title>
+		<link>/amis-tien-luong/kb/lap-bang-phan-bo-luong-theo-doi-tuong-tap-hop-chi-phi/</link>
+					<comments>/amis-tien-luong/kb/lap-bang-phan-bo-luong-theo-doi-tuong-tap-hop-chi-phi/#respond</comments>
+		
+		<dc:creator><![CDATA[Vũ Ngọc Mai]]></dc:creator>
+		<pubDate>Fri, 17 Jun 2022 04:51:01 +0000</pubDate>
+				<guid isPermaLink="false">/amis-tien-luong/?post_type=ht_kb&#038;p=15744</guid>
+
+					<description><![CDATA[Đối tượng tập hợp chi phí (THCP) là nơi phát sinh chi phí và chịu chi phí của đơn vị (VD: phân xưởng, sản phẩm,&#8230;). Việc lập bảng phân bổ lương theo đối tượng THCP giúp kế toán tính giá thành và hạch toán chi phí lương cho doanh nghiệp....]]></description>
+										<content:encoded><![CDATA[<p>Đối tượng tập hợp chi phí (THCP) là nơi phát sinh chi phí và chịu chi phí của đơn vị (VD: phân xưởng, sản phẩm,&#8230;). Việc lập bảng phân bổ lương theo đối tượng THCP giúp kế toán tính giá thành và hạch toán chi phí lương cho doanh nghiệp.</p>
+<p>Từ phiên bản RC22, chương trình đáp ứng thêm chức năng lập bảng phân bổ lương theo đối tượng THCP, ngoài phương pháp phân bổ theo đơn vị đã có trước đây.</p>
+<p><span style="font-size: 14pt;"><strong> Hướng dẫn chi tiết</strong></span></p>
+<h3><span style="font-size: 14pt;"><strong>Bước 1: Kiểm tra trạng thái kết nối với ứng dụng AMIS Kế toán</strong></span></h3>
+<p>Tại <strong>Thiết lập\Kết nối</strong>: chương trình tự động hiển thị trạng thái kết nối với AMIS Kế toán nếu công ty có cài đặt ứng dụng này và còn thời hạn sử dụng.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15745" src="/amis-tien-luong/wp-content/uploads/2022/06/Ket-noi-ung-dung.png" alt="" width="1921" height="610" /></p>
+<p><strong>Lưu ý</strong>: Chỉ khi trạng thái kết nối với AMIS Kế toán là &#8220;Đã kết nối&#8221; thì mới có thể thực hiện được các bước sau.</p>
+<h3><span style="font-size: 14pt;"><strong>Bước 2: Đồng bộ danh mục đối tượng tập hợp chi phí từ AMIS Kế toán</strong></span></h3>
+<p>Tại phân hệ <strong>Tính lương\Phân bổ lương\Quy tắc phân bổ lương</strong>: chọn tab Theo đối tượng tập hợp chi phí → Danh mục đối tượng THCP.</p>
+<p>Lần đầu tiên sử dụng, danh mục này sẽ trống. Nhấn <strong>Cập nhật từ AMIS Kế toán</strong> để đồng bộ danh mục từ AMIS Kế toán về phần mềm.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15746" src="/amis-tien-luong/wp-content/uploads/2022/06/Danh-muc-doi-tuong-thcp.png" alt="" width="1487" height="1040" /></p>
+<p><strong>Lưu ý:</strong></p>
+<ul>
+<li>Danh mục này không thể thêm, sửa, xóa. Nếu muốn chỉnh sửa cần truy cập ứng dụng AMIS Kế toán để thực hiện.</li>
+<li>Danh mục này sẽ không tự động đồng bộ từ AMIS Kế toán nên khi có phát sinh thay đổi trên AMIS Kế toán thì cần nhấn cập nhật lại.</li>
+</ul>
+<h3><span style="font-size: 14pt;"><strong>Bước 3: Thiết lập quy tắc phân bổ đối tượng tập hợp chi phí</strong></span></h3>
+<p>Tại phân hệ <strong>Tính lương\Phân bổ lương\Quy tắc phân bổ lương</strong>: chọn tab &#8220;Theo đối tượng tập hợp chi phí&#8221; để thiết lập quy tắc phân bổ.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15747" src="/amis-tien-luong/wp-content/uploads/2022/06/Danh-muc-doi-tuong-thcp-1.png" alt="" width="1363" height="920" /></p>
+<p>Nhấn <strong>Thêm mới</strong> → khai báo đầy đủ thông tin trên giao diện:</p>
+<ul>
+<li>Đối tượng THCP: chọn từ danh mục đối tượng THCP đã đồng bộ về</li>
+<li>Đơn vị áp dụng, Vị trí áp dụng: chọn đơn vị, vị trí công việc áp dụng quy tắc này; nếu các đơn vị, vị trí khác nhau về quy tắc thì khai báo thành nhiều quy tắc</li>
+<li>Ngày áp dụng: nhập ngày bắt đầu áp dụng quy tắc phân bổ</li>
+<li>Quy tắc phân bổ: nhấn Thêm dòng để khai báo tỷ lệ phân bổ vào chi phí trực tiếp và chi phí gián tiếp của từng thành phần lương</li>
+</ul>
+<p>Nhấn <strong>Đồng ý</strong> để lưu lại quy tắc.</p>
+<h3><span style="font-size: 14pt;"><strong>Bước 4: Lập bảng phân bổ lương</strong></span></h3>
+<p>Tại phân hệ <strong>Tính lương\Phân bổ lương</strong>: nhấn <strong>Thêm mới</strong> → lựa chọn hình thức phân bổ theo &#8220;Đối tượng tập hợp chi phí&#8221; và chọn Đối tượng THCP cần phân bổ.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15748" src="/amis-tien-luong/wp-content/uploads/2022/06/Them-bang-phan-bo.png" alt="" width="1921" height="944" /></p>
+<p>Nhấn <strong>Đồng ý</strong> thì chương trình sẽ tự động tính toán các khoản phân bổ theo quy tắc đã thiết lập, trong đó:</p>
+<ul>
+<li>Phần Chi phí công ty đóng gồm tổng thu nhập và các khoản bảo hiểm sẽ được phân bổ theo từng đối tượng THCP</li>
+<li>Phần Chi phí nhân viên đóng như bảo hiểm, thuế TNCN sẽ không phân bổ theo đối tượng THCP mà chỉ tính tổng từ bảng lương đã chọn</li>
+</ul>
+<p><img loading="lazy" class="alignnone size-full wp-image-15749" src="/amis-tien-luong/wp-content/uploads/2022/06/Bang-phan-bo.png" alt="" width="1225" height="749" /></p>
+<p>Có thể chỉnh sửa lại giá trị các khoản chi phí trên bảng phân bổ tại tab &#8220;Chi phí theo nhân viên&#8221; hoặc cấu hình lại bảng (biểu tượng <img loading="lazy" class="alignnone size-full wp-image-1037" style="display: unset;" src="/amis-tien-luong/wp-content/uploads/2022/03/icon-banh-rang.png" alt="" width="30" height="30" />) để thêm các khoản khác chưa có.</p>
+<hr />
+<p><em>Chức năng chuyển bảng phân bổ lương theo đối tượng THCP sang AMIS Kế toán sẽ được phát triển ở các phiên bản sau.</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/amis-tien-luong/kb/lap-bang-phan-bo-luong-theo-doi-tuong-tap-hop-chi-phi/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Đáp ứng tính Thuế TNCN còn phải khấu trừ tại kỳ lương thứ 2 trong trường hợp đơn vị tính và trả lương 2 kỳ/tháng</title>
+		<link>/amis-tien-luong/kb/dap-ung-tinh-thue-tncn-con-phai-khau-tru-tai-ky-2-trong-truong-hop-don-vi-tinh-va-tra-luong-2-ky-thang/</link>
+					<comments>/amis-tien-luong/kb/dap-ung-tinh-thue-tncn-con-phai-khau-tru-tai-ky-2-trong-truong-hop-don-vi-tinh-va-tra-luong-2-ky-thang/#respond</comments>
+		
+		<dc:creator><![CDATA[Vũ Ngọc Mai]]></dc:creator>
+		<pubDate>Fri, 17 Jun 2022 03:48:44 +0000</pubDate>
+				<guid isPermaLink="false">/amis-tien-luong/?post_type=ht_kb&#038;p=15740</guid>
+
+					<description><![CDATA[Trong trường hợp công ty tính và trả lương 2 kỳ/tháng thì quy trình thực hiện sẽ như sau: Lần 1: Lập bảng lương chi tiết kỳ 1 để tính các khoản lương được hưởng trong kỳ và tạm tính thuế TNCN dựa trên các khoản thu nhập kỳ này...]]></description>
+										<content:encoded><![CDATA[<p>Trong trường hợp công ty tính và trả lương 2 kỳ/tháng thì quy trình thực hiện sẽ như sau:</p>
+<ul>
+<li>Lần 1: Lập bảng lương chi tiết kỳ 1 để tính các khoản lương được hưởng trong kỳ và tạm tính thuế TNCN dựa trên các khoản thu nhập kỳ này</li>
+<li>Lần 2: Lập bảng lương chi tiết kỳ 2 để tính nốt các khoản lương được hưởng trong kỳ 2 và lập bảng lương tổng hợp để tính lại tổng số thuế TNCN phải nộp cả tháng, từ đó trừ đi phần thuế đã khấu trừ lần 1 để ra số tiền lần 2 phải đóng thêm</li>
+</ul>
+<p>Để đáp ứng nghiệp vụ này, chương trình cải tiến quy tắc cập nhật số tiền thuế TNCN phải khấu trừ từ bảng lương tổng hợp vào bảng lương chi tiết các kỳ.</p>
+<p><span style="font-size: 14pt;"><strong>Hướng dẫn chi tiết</strong></span></p>
+<p>Sau khi đã lập các bảng lương chi tiết từng kỳ và bảng lương tổng hợp cả tháng, tại bảng lương tổng hợp, nhấn <strong>Cập nhật vào bảng chi tiết</strong>.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-15741" src="/amis-tien-luong/wp-content/uploads/2022/06/Bang-luong-tong-hop.png" alt="" width="1916" height="722" /></p>
+<p>Khi đó, chương trình sẽ cập nhật số tiền thuế TNCN và các khoản bảo hiểm, công đoàn trên bảng lương chi tiết được chọn theo công thức: Giá trị tại bảng tổng hợp &#8211; Giá trị của khoản đó tại các bảng lương chi tiết khác.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/amis-tien-luong/kb/dap-ung-tinh-thue-tncn-con-phai-khau-tru-tai-ky-2-trong-truong-hop-don-vi-tinh-va-tra-luong-2-ky-thang/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

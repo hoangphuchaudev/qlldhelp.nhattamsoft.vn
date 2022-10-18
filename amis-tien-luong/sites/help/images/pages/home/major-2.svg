@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="clip-major-2">
+      <rect width="64" height="64"/>
+    </clipPath>
+  </defs>
+  <g id="major-2" clip-path="url(#clip-major-2)">
+    <g id="Group_52004" data-name="Group 52004" transform="translate(-3.021 -3)">
+      <path id="Path_44916" data-name="Path 44916" d="M40,16h4.754a4.871,4.871,0,0,1,4.859,4.859v4.754" transform="translate(12.475 -7.499)" fill="none" stroke="#fca800" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <path id="Path_44917" data-name="Path 44917" d="M14.5,25.613V20.859A4.86,4.86,0,0,1,19.361,16h4.754" transform="translate(-6.595 -7.499)" fill="none" stroke="#30a557" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <path id="Path_44918" data-name="Path 44918" d="M14.5,41.5v4.754a4.86,4.86,0,0,0,4.859,4.859h4.754" transform="translate(-6.595 11.571)" fill="none" stroke="#30a557" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <path id="Path_44919" data-name="Path 44919" d="M49.615,41.5v4.754a4.871,4.871,0,0,1-4.859,4.859H40" transform="translate(12.475 11.571)" fill="none" stroke="#30a557" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <g id="Group_51738" data-name="Group 51738" transform="translate(17.521 14.945)">
+        <path id="Path_44920" data-name="Path 44920" d="M54.464,48.2H25.877a3.186,3.186,0,0,1-3.1-3.876,17.825,17.825,0,0,1,34.794,0A3.186,3.186,0,0,1,54.464,48.2Z" transform="translate(-22.697 -10.751)" fill="#b9e6c8" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+        <circle id="Ellipse_3096" data-name="Ellipse 3096" cx="10.464" cy="10.464" r="10.464" transform="translate(7.009 0)" fill="#5bb476" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <rect id="Rectangle_21875" data-name="Rectangle 21875" width="64" height="64" transform="translate(3.022 3)" fill="none" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

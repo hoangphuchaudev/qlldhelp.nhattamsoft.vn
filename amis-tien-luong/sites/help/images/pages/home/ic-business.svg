@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Group_51855" data-name="Group 51855" transform="translate(-170 -1245)">
+    <circle id="Ellipse_3112" data-name="Ellipse 3112" cx="30" cy="30" r="30" transform="translate(170 1245)" fill="#30a557"/>
+    <g id="Ellipse_3124" data-name="Ellipse 3124" transform="translate(174 1249)" fill="none" stroke="#fff" stroke-width="1" opacity="0.2">
+      <circle cx="26" cy="26" r="26" stroke="none"/>
+      <circle cx="26" cy="26" r="25.5" fill="none"/>
+    </g>
+    <path id="Polygon_3" data-name="Polygon 3" d="M13.791,2.7a2,2,0,0,1,3.388,0L29.046,21.606a2,2,0,0,1-1.694,3.063H3.617a2,2,0,0,1-1.694-3.063Z" transform="translate(215.834 1259.516) rotate(90)" fill="none"/>
+    <g id="Group_52089" data-name="Group 52089" transform="translate(183.904 1261.375)">
+      <circle id="Ellipse_3147" data-name="Ellipse 3147" cx="4.927" cy="4.927" r="4.927" transform="translate(11.401 9.073)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_45704" data-name="Path 45704" d="M23.869,2H11.734A3.146,3.146,0,0,0,9.021,3.551L3,13.779A3.148,3.148,0,0,0,3,16.97L9.021,27.2a3.146,3.146,0,0,0,2.713,1.551H23.917a3.145,3.145,0,0,0,2.717-1.559l5.971-10.223a3.145,3.145,0,0,0,0-3.182L26.581,3.551A3.146,3.146,0,0,0,23.869,2Z" transform="translate(-1.475 -1.375)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

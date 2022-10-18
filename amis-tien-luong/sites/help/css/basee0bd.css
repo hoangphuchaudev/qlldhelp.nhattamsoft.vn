@@ -1,0 +1,44 @@
+/*#region Custom Menu */
+.nav-header > ul > li.menu-item-has-children > a::after {
+    background-image: url(../../library/images/menu/ic-arrow.svg);
+}
+
+.nav-header .nav-header__mtoggle span, .nav-header .nav-header__mtoggle span::before, .nav-header .nav-header__mtoggle span::after {
+    background: #3a57d5;
+}
+.hkb-breadcrumbs_wrap ol {
+    display: none;
+}
+.hkb-category__title {
+    font-family: 'roboto bold';
+}
+.hkb-breadcrumbs_wrap ol:first-child {
+    display: block;
+}
+/*#endregion*/
+
+/*#region Custom Search */
+.site-header .site-header__search {
+    background: url(../images/search/bg-banner.png) center no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+.home .hkb-site-search::after {
+    background: url(../images/search/ic-search.svg) center no-repeat;
+}
+/*#endregion*/
+
+/*#region Footer */
+.support-ctn {
+    background: url(../images/footer/bg-footer.jpg) center no-repeat;
+    background-size: cover;
+}
+/*#endregion*/
+
+/*#region Popup Video */
+.popup-video .pv-close {
+    background: url(../../library/images/ic-close.png) top right no-repeat;
+    background-size: 28px;
+}
+/*#endregion*/

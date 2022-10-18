@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="clip-major-3">
+      <rect width="64" height="64"/>
+    </clipPath>
+  </defs>
+  <g id="major-3" clip-path="url(#clip-major-3)">
+    <g id="Group_52002" data-name="Group 52002" transform="translate(-909 -1890)">
+      <g id="Group_52002-2" data-name="Group 52002" transform="translate(909 1894.741)">
+        <path id="Subtraction_1" data-name="Subtraction 1" d="M23.255,15.577H20.983a2.011,2.011,0,0,0,1.972-2V6.3a2,2,0,0,0-2-2H6.3a2,2,0,0,0-2,2v7.275a2.008,2.008,0,0,0,1.971,2L4,15.577a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0H23.255a4,4,0,0,1,4,4v7.574A4.005,4.005,0,0,1,23.255,15.577Z" transform="translate(18.963)" fill="#b9e6c8"/>
+        <rect id="Rectangle_22055" data-name="Rectangle 22055" width="64" height="45.037" rx="4" transform="translate(0 10.16)" fill="#b9e6c8"/>
+        <rect id="Rectangle_22056" data-name="Rectangle 22056" width="64" height="20.148" rx="4" transform="translate(0 10.16)" fill="#5bb476"/>
+        <rect id="Rectangle_22059" data-name="Rectangle 22059" width="10.667" height="13.037" rx="2" transform="translate(27.259 23.197)" fill="#fff"/>
+        <rect id="Rectangle_22061" data-name="Rectangle 22061" width="8.296" height="10.667" rx="2" transform="translate(28.444 24.382)" fill="#fca800"/>
+      </g>
+      <rect id="Rectangle_22060" data-name="Rectangle 22060" width="64" height="64" transform="translate(909 1890)" fill="none"/>
+    </g>
+  </g>
+</svg>
