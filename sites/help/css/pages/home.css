@@ -17,10 +17,9 @@
   display: block;
   position: absolute;
   width: 5%;
-  border-top: 4px solid var(--primary-color);
+  border-top: 9px dotted var(--primary-color);
   left: 50%;
   transform: translateX(-50%);
-  border-radius: 10px;
 }
 
 .line-border > div {

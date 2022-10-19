@@ -208,7 +208,8 @@ body .nowrap {
 }
 
 .chanel-img>img {
-    margin: auto
+    margin: auto;
+    width: 45px;
 }
 
 .f-left>ul {
