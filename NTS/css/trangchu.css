@@ -59,3 +59,9 @@
 .tr-list .tr-img img {
     width: 45px;
 }
+
+@media screen  and (max-width: 468px){
+    .tp-ctn {
+        grid-template-columns: 1fr;
+    }
+}
