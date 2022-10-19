@@ -179,107 +179,33 @@ function subMenuFeatureWeb(e) {
             '<div class="box-content-menu">' +
 
             // Cột 1
-            '<div class="col-md-8 clear-padding content-second-col">' +
+            '<div class="col-md-12 clear-padding content-second-col">' +
             '<div class="menu-row content-menu-item fourth-menu-item top-submenu">' +
-            '<div class="menu-item-group"><a >Điều hành</a>' +
+            '<div class="menu-item-group"><a >Khối cơ quan Nhà nước</a>' +
             '</div>' +
             "</div>" +
             '<div class="menu-row content-menu-item fifth-menu-item">' +
-            '<a href="/amis-cong-viec/"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-cong-viec.svg)"><div class="menu-name">AMIS Công việc</div>' +
-            '<div class="menu-desc">Quản lý công việc</div>' +
+            '<a href="#"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-cong-viec.svg)"><div class="menu-name">Phần mềm Quản lý nhuận bút</div>' +
             "</div></a>" +
-            '<a href="/amis-mxh/"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-mxh.svg)"><div class="menu-name">AMIS Mạng xã hội</div>' +
-            '<div class="menu-desc">Mạng xã hội doanh nghiệp</div>' +
+            '<a href="#"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-mxh.svg)"><div class="menu-name">Phần mềm Quản lý bán hàng</div>' +
             "</div></a>" +
-            '<a href="/ac/amis-phong-hop/"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-phong-hop.svg)"><div class="menu-name">AMIS Phòng họp</div>' +
-            '<div class="menu-desc">Quản lý phòng họp</div>' +
-            "</div></a>" +
-            '<a href="/ac/amis-ghi-chep/"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-ghi-chep.svg)"><div class="menu-name">AMIS Ghi chép</div>' +
-            '<div class="menu-desc">Ghi chép & lưu trữ tài liệu</div>' +
-            "</div></a>" +
-            '<a href="/amis-tai-san/"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-tai-san.svg)"><div class="menu-name">AMIS Tài sản</div>' +
-            '<div class="menu-desc">Quản lý tài sản</div>' +
-            "</div></a>" +
-			'<a href="https://helpwesign.misa.vn/" target="_blank"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-wesign.svg)"><div class="menu-name">AMIS WeSign</div>' +
-            '<div class="menu-desc">Ký tài liệu số</div>' +
+            '<a href="#"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-mxh.svg)"><div class="menu-name">Phần mềm Kế toán doanh nghiệp</div>' +
             "</div></a>" +
             "</div>" +
             "</div>" +
 
 
             // Cột 2
-            '<div class="col-md-8 clear-padding content-second-col">' +
+            '<div class="col-md-12 clear-padding content-second-col">' +
             '<div class="menu-row content-menu-item fourth-menu-item top-submenu">' +
-            '<div class="menu-item-group"><a >Nhân sự</a>' +
+            '<div class="menu-item-group"><a >Khối doanh nghiệp</a>' +
             '</div>' +
             "</div>" +
             '<div class="menu-row content-menu-item fifth-menu-item">' +
-            '<a href="/amis-tuyen-dung/"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-tuyen-dung.svg)"><div class="menu-name">AMIS Tuyển dụng</div>' +
-            '<div class="menu-desc">Quản lý tuyển dụng</div>' +
+            '<a href="#"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-tuyen-dung.svg)"><div class="menu-name">Phần mềm Quản lý phòng khám</div>' +
             "</div></a>" +
-            '<a href="/amis-thong-tin-nhan-su/"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-thong-tin-nhan-su.svg)"><div class="menu-name">AMIS Thông tin nhân sự</div>' +
-            '<div class="menu-desc">Hệ thống thông tin nhân sự</div>' +
+            '<a href="/amis-thong-tin-nhan-su/"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-thong-tin-nhan-su.svg)"><div class="menu-name">Phần mềm Quản lý vé số</div>' +
             "</div></a>" +
-            '<a href="https://helpbhxh.misa.vn/" target="_blank"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-bhxh.svg)"><div class="menu-name">AMIS BHXH</div>' +
-            '<div class="menu-desc">Bảo hiểm xã hội điện tử</div>' +
-            "</div></a>" +
-            '<a href="/amis-cham-cong/"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-cham-cong.svg)"><div class="menu-name">AMIS Chấm công</div>' +
-            '<div class="menu-desc">AMIS Chấm công</div>' +
-            "</div></a>" +
-            '<a href="/amis-tien-luong/"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-tien-luong.svg)"><div class="menu-name">AMIS Tiền lương</div>' +
-            '<div class="menu-desc">Quản lý tiền lương</div>' +
-            "</div></a>" +
-            '<a><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/mintax.svg)"><div class="menu-name">Mintax</div>' +
-            '<div class="menu-desc">Mintax</div>' +
-            "</div></a>" +
-            "</div>" +
-            "</div>" +
-
-            // Cột 3
-            '<div class="col-md-8 clear-padding content-second-col">' +
-            '<div class="menu-row content-menu-item fourth-menu-item top-submenu">' +
-            '<div class="menu-item-group"><a >Bán hàng</a>' +
-            '</div>' +
-            "</div>" +
-            '<div class="menu-row content-menu-item fifth-menu-item">' +
-            '<a href="/ac/ban-hang/"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-ban-hang.svg)"><div class="menu-name">AMIS Bán hàng</div>' +
-            '<div class="menu-desc">Quản lý bán hàng</div>' +
-            "</div></a>" +
-            '<a href="https://helpaimarketing.misa.vn/" target="_blank"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-aimarketing.svg)"><div class="menu-name">AMIS aiMarketing</div>' +
-            '<div class="menu-desc">Marketing tự động</div>' +
-            "</div></a>" +
-            '<a href="https://help.cukcuk.vn/vi/" target="_blank"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/misa-cukcuk.svg)"><div class="menu-name">CukCuk</div>' +
-            '<div class="menu-desc">Quản lý bán hàng</div>' +
-            "</div></a>" +
-            "</div>" +
-            "</div>" +
-
-
-            // Cột 4
-            '<div class="col-md-8 clear-padding content-first-col">' +
-            '<div class="menu-row content-menu-item first-menu-item top-submenu col">' +
-            '<div class="menu-item-group"><a >Tài chính</a>' +
-            '</div>' +
-            "</div>" +
-            '<div class="menu-row content-menu-item second-menu-item">' +
-            '<a href="/ac/ke-toan/"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/amis-ke-toan.svg)"><div class="menu-name">AMIS Kế toán</div>' +
-            '<div class="menu-desc">Quản lý kế toán</div>' +
-            "</div></a>" +
-            // '<a href="https://bankhub.misa.vn" target="_blank"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/misa-bankhub.svg)"><div class="menu-name">MISA Bankhub</div>' +
-            // '<div class="menu-desc">Kết nối ngân hàng điện tử</div>' +
-            // "</div></a>" +
-            '<a href="https://helpmtax.misa.vn/" target="_blank"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/misa-mtax.svg)"><div class="menu-name">MISA mTax</div>' +
-            '<div class="menu-desc">Dịch vụ Thuế điện tử</div>' +
-            "</div></a>" +
-            '<a href="https://help.meinvoice.vn/" target="_blank"><div class="menu-product-detail" style="background-image: url(/sites/library/images/icon-menu/misa-meinvoice.svg)"><div class="menu-name">MISA meInvoice</div>' +
-            '<div class="menu-desc">Hóa đơn điện tử</div>' +
-            "</div></a>" +
-            "</div>" +
-            "</div>" +
-
-
-            "</div>" +
-            "</div>" +
             "</div>" +
             "</div>"
         );
