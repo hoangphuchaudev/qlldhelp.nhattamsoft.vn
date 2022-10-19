@@ -1,0 +1,56 @@
+.nghiepvu-container {
+    padding: 0 20px;
+}
+
+.tp-ctn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.tp-ctn > div {
+    background: rgba(255,255,255,0.6);
+}
+.tp-ctn > div {
+    box-shadow: 0 3px 50px rgb(0 0 0 / 4%);
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+}
+.tp-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tp-title {
+    font-size: 20px;
+    position: relative;
+}
+.text-bold {
+    font-family: Roboto Bold, Arial, sans-serif;
+}
+.tp-content {
+    padding: 20px 0 0 0;
+}
+.tp-content > a {
+    display: block;
+    padding: 8px 0;
+    position: relative;
+}
+.homepage a {
+    color: #212121;
+}
+
+.bg-blue {
+    background: rgba(#8AE8F8, #8AE8F8,  #8AE8F8,0.2);
+}
+.bg-orange {
+    background: linear-gradient(152.41deg,#F86148 0,#FDB376 100%);
+}
+
+.bg-purple { 
+    background: linear-gradient(315deg,#8D90FB 0,#F586C3 100%);
+
+
+}
+.bg-green {
+    background: linear-gradient(135deg,#69DDB3 0,#50A7C2 100%);
+}

@@ -19,9 +19,9 @@
 
 /*#region Custom Search */
 .site-header .site-header__search {
-    background: url(../images/search/bg-banner.png) center no-repeat;
+    background: url(../images/search/search.png) center no-repeat;
     background-size: cover;
-    height: 450px;
+    height: 250px;
 }
 
 .home .hkb-site-search::after {

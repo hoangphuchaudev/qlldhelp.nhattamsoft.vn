@@ -17,7 +17,7 @@
   display: block;
   position: absolute;
   width: 5%;
-  border-top: 4px solid #32B247;
+  border-top: 4px solid var(--primary-color);
   left: 50%;
   transform: translateX(-50%);
   border-radius: 10px;
@@ -343,7 +343,7 @@
 }
 .tr-content {
   padding: 0 15px;
-  text-align: center;
+  text-align: left;
   font-size: 15px;
 }
 
@@ -405,7 +405,7 @@ ul.video-tab li.active a {
 }
 .tr-list > div {
   display: block;
-  border-radius: 24px;
+  border-radius: 10px;
   color: #212121;
   /* border: 1px solid #e0e0e0; */
   background-color: #fff;
@@ -424,7 +424,7 @@ ul.video-tab li.active a {
   width: 100%;
   text-align: center;
   grid-gap: 15px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .tr-img {
@@ -434,7 +434,7 @@ ul.video-tab li.active a {
 .tr-title {
   padding: 10px 15px 24px;
   font-family: Roboto Medium, Arial, sans-serif;
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px dashed rgb(224, 224, 224);
   margin-bottom: 20px;
 }
 
@@ -560,8 +560,8 @@ ul.video-tab li.active a {
   text-align: center;
   color: #fff;
   border-radius: 8px;
-  border: 1px solid #30A557;
-  background-color: #30A557;
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
   font-family: Roboto Medium, Arial, sans-serif;
 }
 .video.common-padding {
@@ -607,7 +607,7 @@ ul.video-tab li.active a {
 
 /* #region major */
 .tutorial-major {
-  background: url(../../images/pages/home/bg-major.jpg);
+  background: url(../../images/pages/vaitro/bg.png);
   padding: 60px 0 80px;
 }
 
