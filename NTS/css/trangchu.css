@@ -54,3 +54,8 @@
 .bg-green {
     background: linear-gradient(135deg,#69DDB3 0,#50A7C2 100%);
 }
+
+
+.tr-list .tr-img img {
+    width: 45px;
+}
